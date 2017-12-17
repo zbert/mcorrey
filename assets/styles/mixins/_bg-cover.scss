@@ -1,0 +1,9 @@
+@mixin bg-cover($position: null) {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @if $position == 'null' {
+    background-position: center; 
+  }
+}

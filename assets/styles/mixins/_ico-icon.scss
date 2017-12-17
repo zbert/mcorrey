@@ -1,0 +1,47 @@
+// Mixins
+// --------------------------
+
+@mixin ico-icon() {
+  display: inline-block;
+  font-family: $ico-icon-name;
+  font-size: inherit;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+@mixin ico-icon-before($icon-type) {
+
+  &:before {
+    @include ico-icon();
+
+    @if map-has-key($icons, $icon-type) {
+      content: map-get($icons, $icon-type );
+    }
+
+
+
+    @content;
+  }
+}
+
+@mixin ico-icon-after($icon-type) {
+
+  &:after {
+    @include ico-icon();
+
+    @if map-has-key($icons, $icon-type) {
+      content: map-get($icons, $icon-type );
+    }
+
+    @content;
+  }
+}

@@ -1,0 +1,131 @@
+$button__font-size: 12px;
+$button__padding: 20px;
+button {
+  line-height: 1.1;
+  background-color: transparent;
+  border-color: transparent;
+  outline: 0;
+  transition: color 0.4s;
+  position: relative;
+  border-radius: 0;
+  padding: 0;
+  border-width: 1px;
+}
+
+//default styles
+.btn {
+  display: inline-block;
+  background-color: transparent;
+  border-color: transparent;
+  transition: all 0.4s;
+  position: relative;
+  border-radius: 0;
+  border-width: 1px;
+  text-align: center;
+  padding: px-to-em($button__padding/1.5);
+
+  // min-width: px-to-em($button__min-width);
+  
+  @include respond-to('between') {
+    // min-width: px-to-em($button__min-width--tablet);
+    padding-top: px-to-em($button__padding* 1.5);
+    padding-bottom: px-to-em($button__padding* 1.5);
+  }
+}
+
+.btn-strikethrough {
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    top: 55%;
+    border-top: 8px solid $color__pink;
+    display: inline-block;
+    transition: width 0.75s cubic-bezier(1, 0, 0, 1);
+  }
+
+  &--thick {
+    &:before {
+      border-width: 8px;
+      top: 55%;
+    }
+  }
+
+  &:hover {
+    &:before {
+      width: 100%;
+    }
+  }
+}
+
+.btn-ghost {
+  $line-width: 30px;
+
+  display: inline-block;
+  background-color: transparent;
+  border-color: transparent;
+  transition: all 0.4s;
+  position: relative;
+  border-radius: 0;
+  text-align: left;
+  padding: px-to-em($button__padding/1.5) px-to-em($button__padding/1.25);
+  padding-right: px-to-em($line-width + $button__padding);
+  border: 1px solid $color__pink;
+  color: $color__pink;
+  overflow: hidden;
+  font-family: $font-family__titles;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+
+  &__label {
+    font-size: px-to-em($button__font-size);
+    position: relative;
+    display: inline-block;
+    padding-right: px-to-em(10px, $button__font-size);
+
+    &:before,
+    &:after {
+      
+
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 100%;
+      display: block;
+      border-top: 1px solid $color__pink;
+      width: $line-width;
+      transition: width 0.75s cubic-bezier(1, 0, 0, 1);
+      backface-visibility: hidden;
+      display: block;
+    }
+
+    &:after {
+      width: 0;
+      border-top-color: $color__black;
+      z-index: 2;
+    }
+  }
+
+  @include respond-to('between') {
+    $line-width: 40px;
+    padding: px-to-em($button__padding/1.25) px-to-em($button__padding);
+    padding-right:  px-to-em($button__padding + $line-width);
+
+    &:hover & {
+      &__label {
+        &:after {
+          width: px-to-em($line-width, $button__font-size) ;
+        }
+      }
+    }
+    
+
+    &__label {
+      
+      &:before {
+        width: px-to-em($line-width, $button__font-size);
+      }
+    }
+  }
+}

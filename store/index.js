@@ -1,8 +1,10 @@
 import Vuex from 'vuex'
+import content from '@/content.json'
 
 const createStore = () => {
   return new Vuex.Store({
     state: {
+      ...content,
       counter: 0,
       works: [
         {

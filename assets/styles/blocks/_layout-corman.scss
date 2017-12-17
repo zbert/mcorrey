@@ -1,0 +1,82 @@
+.layout-corman {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+
+  &__faded {
+    
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.08;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  &__faded-img {
+    @include center-align(horizontal);
+
+    position: relative;
+    display: block;
+    min-height: 100%;
+    min-width: 100%;
+  }
+
+  &__copy {
+    position: relative;
+    z-index: 5;
+
+    &--two-column {
+      @include clearfix;
+    }
+  }
+
+  &__slogan {
+    @include center-align(horizontal);
+    @include font($font-family__titles, 12px);
+    position: absolute;
+    bottom: px-to-em($wrapper-padding--mobile, 12px);
+    color: $color__white;
+  
+    white-space: nowrap;
+  }
+
+  &__resume {
+    margin-top: px-to-em($spacing__md);
+    float: right;
+  }
+
+  @include respond-to('between') {
+    &__slogan {
+      font-size: px-to-em(14px);
+      left: px-to-em($wrapper-padding, 14px);
+      bottom: px-to-em($wrapper-padding, 14px);
+      transform: none;
+    }
+
+    &__copy {
+      position: relative;
+      z-index: 5;
+  
+      &--two-column {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+
+        .titles__main {
+          flex-grow: 1;
+        }
+      }
+    }
+    &__resume {
+      float: none;
+      margin-top: 0;
+      flex-shrink: 0;
+    }
+  }
+}
+  

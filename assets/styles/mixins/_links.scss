@@ -1,0 +1,9 @@
+// Link Variants
+@mixin links__blue() {
+  color: $color__blue;
+  transition: color 0.25s;
+
+  &:hover {
+    color: $color__black;
+  }
+}

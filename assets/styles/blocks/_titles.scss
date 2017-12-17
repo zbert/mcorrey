@@ -1,0 +1,50 @@
+
+// @mixin titles-hero() {
+// 	@include font($size: $font-size__hero--mobile, $weight: black);
+
+// 	line-height: 1.3;
+
+// 	@include respond-to('between') {
+// 		font-size: px-to-em($font-size__hero);
+// 	}
+// }
+
+@mixin titles-main() {
+  @include font($weight: 'regular');
+    font-size: 5vw;
+    letter-spacing: 0.05em;
+    line-height: 1.3;
+  
+    @include respond-to('between') {
+      font-size: px-to-em($font-size__h1);
+    }
+}
+
+
+.titles {
+  &__main {
+    @include titles-main();
+    color: $color__pink;
+
+    & + & {
+      margin-top: px-to-em($spacing__md, $font-size__hero--mobile)
+    }
+
+    &--white {
+      color: $color__white;
+    }
+
+    &--center {
+      text-align: center;
+    }
+    &--right-align {
+      text-align: right;
+    }
+
+    @include respond-to('between') {
+      &--home {
+        font-size: 4vw;
+      }
+    }
+  }
+}

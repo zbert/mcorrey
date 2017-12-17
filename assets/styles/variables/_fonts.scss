@@ -1,0 +1,67 @@
+
+
+
+//------------------------------------------
+//				Variables
+//------------------------------------------
+$font-size-base: 16px;
+$font__line-height: 1.5;
+
+$font-size__hero: 74px !default;
+
+$font-size__h1: 42px !default;
+$font-size__h2: 35px !default;
+$font-size__h3: 30px !default;
+$font-size__h4: 24px !default;
+$font-size__h5: 18px !default;
+$font-size__h6: 14px !default;
+
+$font-size__hero--mobile: 36px !default;
+$font-size__page-title--mobile: 45px !default;
+$font-size__h1--mobile: 24px !default;
+$font-size__h2--mobile: 28px !default;
+$font-size__h3--mobile: 24px !default;
+$font-size__h4--mobile: 20px !default;
+
+
+//------------------------------------------
+//				Helpful Functions for font conversion to EM
+//------------------------------------------
+@function px-to-em($pixels, $base: null) {
+  @if $base == null {
+    $base: $font-size-base;
+  }
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+	@return ($pixels / $base) * 1em;
+}
+
+
+
+$font-family__effra: 'effra',sans-serif;
+$font-family__playfair: 'Playfair Display', serif;
+
+$font-family__titles: $font-family__effra;
+$font-family__body: $font-family__playfair;
+
+$font-weights: (
+  regular: 400,
+  medium: 500,
+	semibold: 600,
+	bold: 700,
+	black: 900
+);
+
+@mixin font($family: null, $size: null, $weight: null, $size-base: null ) {
+  font-family: $family;
+
+	@if $size != null {
+		font-size: px-to-em($size, $size-base);
+  }
+
+	@if map-has-key($font-weights, $weight) {
+		font-weight: map-get($font-weights, $weight);
+	}
+}

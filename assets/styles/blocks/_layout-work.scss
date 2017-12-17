@@ -1,0 +1,23 @@
+.layout-work {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  padding-top: px-to-em($wrapper-padding--mobile * 4);
+  
+
+
+  &__outro {
+    position: relative;
+    width: 100%;
+  }
+
+  @include respond-to('between') {
+    padding-top: px-to-em($wrapper-padding * 3);
+    &__copy {
+      position: relative;
+      z-index: 5;
+  
+    }
+  }
+}
+  

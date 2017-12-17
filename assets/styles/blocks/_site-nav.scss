@@ -1,0 +1,93 @@
+$site-nav__font-size: 12px;
+
+
+.site-nav {
+
+  &__link {
+    position: absolute;
+    z-index: $zindex__site-header;
+    color: $color__white;
+    text-transform: uppercase;
+    letter-spacing: 0.35em;
+    
+    &--work {
+      top: px-to-em($wrapper-padding--mobile);
+      
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    &--contact {
+      left: px-to-em($wrapper-padding--mobile);
+
+      top: 50%;
+      transform: translateY(-50%);
+
+      svg {
+        position: absolute;
+      }
+
+      .site-nav__title {
+        position: relative;
+        transform: rotate(-90deg) translate(-100%);
+        display: inline-block;
+        transform-origin: 0 0;
+      }
+
+      // &:before {
+      //   content: 'Contact';
+      //   @include center-align(both);
+      //   color: transparent;
+      //   display: block;
+      //   height: 500px;
+      //   width: 170px;
+        
+      //   background-image: url(./../images/contact.svg);
+      //   background-size: contain;
+      //   background-repeat: no-repeat;
+      //   transform-origin: 0 0;
+      // }
+    }
+
+    &--about {
+      right: px-to-em($wrapper-padding--mobile);
+
+      top: 50%;
+      transform: translateY(-50%);
+
+      .site-nav__title {
+        position: relative;
+        transform: rotate(90deg) translate(100%);
+        display: inline-block;
+        transform-origin: 100% 0;
+      }
+    }
+  }
+
+  &__title {
+    @include font($font-family__titles, $site-nav__font-size);
+  }
+
+  
+
+  @include respond-to('between') {
+
+    &__link {
+      position: absolute;
+      
+      &--work {
+        top: px-to-em($wrapper-padding);
+      }
+  
+      &--contact {
+        left: px-to-em($wrapper-padding);
+      }
+  
+      &--about {
+        right: px-to-em($wrapper-padding);
+      }
+    }
+
+  }
+
+}

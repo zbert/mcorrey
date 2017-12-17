@@ -1,0 +1,54 @@
+.site-header {
+  $font-size: 36px;
+  $font-size--mobile: 20px;
+
+  &__title {
+    display: block;
+    color: $color__white;
+    position: absolute;
+    top: px-to-em($wrapper-padding--mobile);
+    left: px-to-em($wrapper-padding--mobile);
+    z-index: $zindex__site-header;
+    white-space: nowrap; 
+  }
+
+  &__m,
+  &__mask {
+    @include font($font-family__titles, $font-size--mobile);   
+    vertical-align: middle;
+  } 
+
+  &__mask {
+    display: inline-block;
+    overflow: hidden;
+    width:0;
+    transition: width 0.75s cubic-bezier(1, 0, 0, 1);
+  }
+
+  &__logo {
+    display: block;
+    width: 100%;
+  }
+  
+
+  @include respond-to('between') {
+    &__title {
+      top: px-to-em($wrapper-padding);
+      left: px-to-em($wrapper-padding);
+
+      &:hover {
+        .site-header__mask {
+          width: px-to-em(100px,$font-size);
+        }
+      }
+
+    }
+
+    &__m,
+    &__mask {
+      font-size: px-to-em($font-size);
+    }
+
+    
+  }
+}

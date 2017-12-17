@@ -1,0 +1,48 @@
+$searchbox__padding: px-to-em(24px);
+$searchbox__icon-size: 20px;
+
+.searchbox {
+  // position: relative;
+  // border: 1px solid $searchbox__border-color;
+
+  // &__input {
+
+  // 	line-height: 1.1;
+	// 	width: 100%;
+	// 	border-color: transparent;
+	// 	color: $color__blue;
+	// 	padding: $searchbox__padding/2 $searchbox__padding;
+
+	// 	@include placeholder {
+	// 		color: $color__blue;
+	// 		opacity: 1;
+	// 	}
+  // }
+
+  // &__button {
+  // 	position: absolute;
+	// 	right: 0;
+	// 	padding-right: 1.25em;
+	// 	top: 0;
+	// 	height: 100%;
+	// 	text-align: right;
+	// 	background-color: transparent;
+	// 	border-color: transparent;
+	// 	color: $color__brand-gold;
+	// 	font-size: px-to-em($searchbox__icon-size);
+  // }
+
+
+  &--inverse {
+
+  	.searchbox__input {
+  		// color: $color__white;
+  		background-color: transparent;
+
+  		@include placeholder {
+				// color: $color__white;
+			}
+  	}
+  }
+}
+

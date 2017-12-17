@@ -1,0 +1,41 @@
+.social-links {
+  position: absolute;
+  top: px-to-em($wrapper-padding--mobile);
+  right: px-to-em($wrapper-padding--mobile);
+  z-index: $zindex__site-header;
+  display: inline-block;
+
+  &__item {
+    & + &  {
+      margin-top: 0.5em;
+    }
+  }
+  
+  &__icon {
+    @include ico-icon();
+
+    vertical-align: middle;
+    color: $color__white;
+    text-align: center;
+    font-size: 0.75em;
+    display:block;
+    text-align:center;
+  }
+  
+  @include respond-to('between') {
+    top: px-to-em($wrapper-padding);
+    right: px-to-em($wrapper-padding);
+
+    &__item {
+      & + &  {
+        margin-top: 1em;
+      }
+    }
+
+    &__icon {
+      transition: color 0.25s;
+      font-size: 1em;
+    }
+  }
+}
+  

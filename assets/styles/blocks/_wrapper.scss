@@ -1,0 +1,19 @@
+$wrapper-padding: 60px;
+$wrapper-padding--mobile: 20px;
+
+$wrapper-max-width: 980px;
+
+
+.wrapper {
+	width: 100%;
+  max-width: px-to-em($wrapper-max-width) +  px-to-em($wrapper-padding * 6);
+  padding-left: px-to-em($wrapper-padding--mobile * 3);
+  padding-right: px-to-em($wrapper-padding--mobile * 3 );
+  margin-left: auto;
+	margin-right: auto;
+
+	@include respond-to('between') {
+		padding-left: px-to-em($wrapper-padding * 3);
+  	padding-right: px-to-em($wrapper-padding * 3);
+	}
+}

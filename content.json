@@ -1,0 +1,143 @@
+{
+  "site": {
+    "backgroundImage": "/images/corman.png"
+  },
+  "navigation": {
+    "logo": "Michael",
+    "labels": {
+      "work": "Work",
+      "contact": "Contact",
+      "about": "About"
+    },
+    "slogan": "Let’s make things better, beautifully.",
+    "socialLinks": [
+      "twitter",
+      "facebook",
+      "linkedin"
+    ]
+  },
+  "home": {
+    "meta": {
+      "title": "Michael Correy",
+      "description": "Let’s make things better, beautifully.",
+      "image": "/images/corman.png"
+    },
+    "heading": [
+      "Let’s make things better,",
+      "beautifully."
+    ]
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact",
+      "description": "Get in touch",
+      "image": "/images/corman.png"
+    },
+    "email": "michaelcorrey@gmail.com",
+    "phone": "317.590.6518",
+    "address": [
+      "2047 W. Thomas St. G",
+      "Chicago, Il 60622"
+    ]
+  },
+  "about": {
+    "meta": {
+      "title": "About",
+      "description": "About Michael.",
+      "image": "/images/corman.png"
+    },
+    "resume": {
+      "label": "My Resume",
+      "url": "#pdf"
+    },
+    "intro": [
+      "Hello.",
+      "",
+      "My name is Michael.",
+      "",
+      "I’m a art director and",
+      "designer focusing on",
+      "Digital Design and Branding."
+    ]
+  },
+  "work": {
+    "meta": {
+      "title": "Work",
+      "description": "Check out featured work",
+      "image": "/images/corman.png"
+    },
+    "behance": {
+      "label": "See More Work",
+      "url": "https://www.behance.com"
+    },
+    "emoji": {
+      "title": "Fire Emoji",
+      "image": "/images/fire-emoji.png"
+    },
+    "pages": [
+      {
+        "title": "William Blair",
+        "featuredImage": "/images/william-blair/featured.jpg",
+        "caption": "William Caption",
+        "role":"Art Director",
+        "year": "2017",
+        "agency": "One North Interactive",
+        "images": []
+      },
+      {
+        "title": "Taft Law",
+        "featuredImage": "/images/taft/featured.jpg",
+        "caption": "Taft Caption",
+        "role":"Art Director",
+        "year": "2017",
+        "agency": "One North Interactive",
+        "images": []
+      },
+      {
+        "title": "Greenberg Traurig",
+        "featuredImage": "/images/greenberg/featured.jpg",
+        "caption": "Greenberg Caption",
+        "role":"Art Director",
+        "year": "2017",
+        "agency": "One North Interactive",
+        "images": []
+      },
+      {
+        "title": "ExLab 2017",
+        "featuredImage": "/images/exlab/featured.jpg",
+        "caption": "ExLab Caption",
+        "role":"Art Director",
+        "year": "2017",
+        "agency": "One North Interactive",
+        "images": []
+      },
+      {
+        "title": "Burns & McDonnell",
+        "featuredImage": "/images/burns/featured.jpg",
+        "caption": "Burns Caption",
+        "role":"Art Director",
+        "year": "2017",
+        "agency": "One North Interactive",
+        "images": []
+      },
+      {
+        "title": "Starbar",
+        "featuredImage": "/images/starbar/featured.jpg",
+        "caption": "Starbar Caption",
+        "role":"Art Director",
+        "year": "2017",
+        "agency": "One North Interactive",
+        "images": []
+      },
+      {
+        "title": "Adnoyvate",
+        "featuredImage": "/images/adnoyvate/featured.jpg",
+        "caption": "Adnoyvate Caption",
+        "role":"Art Director",
+        "year": "2017",
+        "agency": "One North Interactive",
+        "images": []
+      }
+    ]
+  }
+}
