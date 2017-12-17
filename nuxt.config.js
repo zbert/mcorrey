@@ -1,3 +1,22 @@
+const content = require('./content.json')
+
+const workFolderName = 'work'
+
+const sluggify = (words) =>
+  words
+    .toLowerCase()
+    .split(' ')
+    .filter(a => a)
+    .join('-')
+
+const routes = () =>
+  content.work.pages
+    .filter(work => work.title)
+    .map(work => work.title)
+    .map(sluggify)
+    .map(slug => `/${workFolderName}/${slug}`)
+
+
 module.exports = {
   /*
   ** Headers of the page
@@ -12,6 +31,9 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+  },
+  generate: {
+    routes: routes()
   },
   css: [
     '@/assets/styles/main.scss'
