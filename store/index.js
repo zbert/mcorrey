@@ -1,54 +1,39 @@
 import Vuex from 'vuex'
-import content from '@/content.json'
+import content from '@/static/content.json'
+
+const sluggify = (words) =>
+  words
+    .toLowerCase()
+    .split(' ')
+    .filter(a => a)
+    .join('-')
 
 const createStore = () => {
   return new Vuex.Store({
     state: {
-      ...content,
-      counter: 0,
-      works: [
-        {
-          slug: 'rene',
-          title: 'Rene',
-          caption: 'Pitch Concept',
-          role: 'art Director',
-          year: '1890',
-          agency: 'One North',
-          images: []
-        },
-        {
-          slug: 'ryan',
-          title: 'Ryan',
-          caption: 'Pjksjdl Concept',
-          role: 'art Director',
-          year: '1890',
-          agency: 'One North',
-          images: []
-        }
-      ]
+      ...content
     },
     getters: {
       workPages (state) {
-        return state.works.reduce((workpages, work, index, works) => {
+        return state.work.pages.reduce((workpages, work, index, works) => {
+          const slug = sluggify(work.title)
           // Getting work item
-          workpages[work.slug] = work
+          workpages[slug] = {
+            ...work,
+            slug
+          }
           // getting next page
           if (index + 1 < works.length) {
-            workpages[work.slug].next = works[index + 1].slug
+            workpages[slug].next = sluggify(works[index + 1].title)
           }
           // get meta info
-          workpages[work.slug].meta = {
+          workpages[slug].meta = {
             title: work.title,
             description: work.caption,
-            image: work.images[0]
+            image: work.featuredImage
           }
           return workpages
         }, {})
-      }
-    },
-    mutations: {
-      increment (state) {
-        state.counter++
       }
     }
   })

@@ -1,4 +1,4 @@
-const content = require('./content.json')
+const content = require('./static/content.json')
 
 const workFolderName = 'work'
 
@@ -15,7 +15,6 @@ const routes = () =>
     .map(work => work.title)
     .map(sluggify)
     .map(slug => `/${workFolderName}/${slug}`)
-
 
 module.exports = {
   /*
