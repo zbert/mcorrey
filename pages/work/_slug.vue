@@ -7,6 +7,20 @@
 
 <script>
 export default {
+  head () {
+    const meta = this.item.meta
+    return {
+      title: meta.title,
+      meta: [
+        { name: 'description', content: meta.description },
+        { property: 'og:description', content: meta.description },
+        { property: 'og:title', content: meta.title },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: this.$route.fullPath },
+        { property: 'og:image', content: meta.image }
+      ]
+    }
+  },
   data: () => ({
   }),
   computed: {

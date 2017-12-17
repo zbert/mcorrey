@@ -28,9 +28,17 @@ const createStore = () => {
     getters: {
       workPages (state) {
         return state.works.reduce((workpages, work, index, works) => {
+          // Getting work item
           workpages[work.slug] = work
+          // getting next page
           if (index + 1 < works.length) {
             workpages[work.slug].next = works[index + 1].slug
+          }
+          // get meta info
+          workpages[work.slug].meta = {
+            title: work.title,
+            description: work.caption,
+            image: work.images[0]
           }
           return workpages
         }, {})
