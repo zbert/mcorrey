@@ -3,7 +3,7 @@
     <div>
       <logo/>
       <h1 class="title">
-        mcorrey
+        michael
       </h1>
       <h2 class="subtitle">
         personal portfolio
