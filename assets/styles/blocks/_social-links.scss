@@ -1,5 +1,5 @@
 .social-links {
-  position: absolute;
+  position: fixed;
   top: px-to-em($wrapper-padding--mobile);
   right: px-to-em($wrapper-padding--mobile);
   z-index: $zindex__site-header;
@@ -14,12 +14,15 @@
   &__icon {
     @include ico-icon();
 
-    vertical-align: middle;
     color: $color__white;
     text-align: center;
     font-size: 0.75em;
     display:block;
     text-align:center;
+
+    .page__detail & {
+      color: $color__black;
+    }
   }
   
   @include respond-to('between') {
@@ -35,6 +38,24 @@
     &__icon {
       transition: color 0.25s;
       font-size: 1em;
+      position: relative;
+
+      &:hover {
+        &:after {
+          width: 100%;
+        }
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        width: 0%;
+        top: 50%;
+        left: 0;
+        border-top: 4px solid $color__pink;
+        display: inline-block;
+        transition: width 0.75s cubic-bezier(1, 0, 0, 1);
+      }
     }
   }
 }

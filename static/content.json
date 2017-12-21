@@ -2,19 +2,21 @@
   "site": {
     "backgroundImage": "/images/corman.png"
   },
-  "navigation": {
-    "logo": "Michael",
-    "labels": {
-      "work": "Work",
-      "contact": "Contact",
-      "about": "About"
-    },
+  "settings": {
     "slogan": "Let’s make things better, beautifully.",
     "socialLinks": [
       "twitter",
       "facebook",
       "linkedin"
     ]
+  },
+  "navigation": {
+    "logo": "Michael",
+    "labels": {
+      "work": "Work",
+      "contact": "Contact",
+      "about": "About"
+    }
   },
   "home": {
     "meta": {

@@ -5,11 +5,15 @@
   &__title {
     display: block;
     color: $color__white;
-    position: absolute;
+    position: fixed;
     top: px-to-em($wrapper-padding--mobile);
     left: px-to-em($wrapper-padding--mobile);
     z-index: $zindex__site-header;
     white-space: nowrap; 
+
+    .page__detail & {
+      color: $color__black;
+    }
   }
 
   &__m,

@@ -1,0 +1,12 @@
+.layout-detail {
+  padding-top: px-to-em($wrapper-padding--mobile * 4);
+  padding-bottom: px-to-em($wrapper-padding--mobile * 2);
+  text-align: center;
+  display: block;
+
+  @include respond-to('between') {
+    padding-top: px-to-em($wrapper-padding * 3);  
+    padding-bottom: px-to-em($wrapper-padding * 2);  
+  }
+}
+  

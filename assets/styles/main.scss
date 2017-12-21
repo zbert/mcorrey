@@ -3,14 +3,3 @@
 
 @import 'normalize';
 @import 'blocks/_manifest';
-
-.page-enter-active, .page-leave-active {
-  transition: opacity .5s;
-}
-.page-enter, .page-leave-to {
-  opacity: 0;
-}
-
-body {
-  color: white;
-}

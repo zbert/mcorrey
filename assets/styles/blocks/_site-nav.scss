@@ -4,23 +4,27 @@ $site-nav__font-size: 12px;
 .site-nav {
 
   &__link {
-    position: absolute;
+    position: fixed;
     z-index: $zindex__site-header;
     color: $color__white;
     text-transform: uppercase;
     letter-spacing: 0.35em;
-    
-    &--work {
+
+    .page__detail & {
+      color: $color__black;
+    }
+
+    &--top {
       top: px-to-em($wrapper-padding--mobile);
-      
+
       left: 50%;
       transform: translateX(-50%);
     }
 
-    &--contact {
+    &--left {
       left: px-to-em($wrapper-padding--mobile);
 
-      top: 50%;
+      top: 48%;
       transform: translateY(-50%);
 
       svg {
@@ -41,7 +45,7 @@ $site-nav__font-size: 12px;
       //   display: block;
       //   height: 500px;
       //   width: 170px;
-        
+
       //   background-image: url(./../images/contact.svg);
       //   background-size: contain;
       //   background-repeat: no-repeat;
@@ -49,7 +53,7 @@ $site-nav__font-size: 12px;
       // }
     }
 
-    &--about {
+    &--right {
       right: px-to-em($wrapper-padding--mobile);
 
       top: 50%;
@@ -68,26 +72,23 @@ $site-nav__font-size: 12px;
     @include font($font-family__titles, $site-nav__font-size);
   }
 
-  
+
 
   @include respond-to('between') {
 
     &__link {
-      position: absolute;
-      
-      &--work {
+
+      &--top {
         top: px-to-em($wrapper-padding);
       }
-  
-      &--contact {
+
+      &--left {
         left: px-to-em($wrapper-padding);
       }
-  
-      &--about {
+
+      &--right {
         right: px-to-em($wrapper-padding);
       }
     }
-
   }
-
 }

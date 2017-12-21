@@ -14,6 +14,9 @@ const createStore = () => {
       ...content
     },
     getters: {
+      // ...mapGetters([
+      //   'navigation'
+      // ]),
       workPages (state) {
         return state.work.pages.reduce((workpages, work, index, works) => {
           const slug = sluggify(work.title)

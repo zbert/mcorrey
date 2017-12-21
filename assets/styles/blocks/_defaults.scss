@@ -20,6 +20,10 @@ body {
 	
 		cursor: url(./../images/cursor-arrow.png), auto;
 	}
+
+	&.page__detail {
+		background-color: $color__white;
+	}
 }
 
 main {
