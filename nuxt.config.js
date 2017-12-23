@@ -28,8 +28,14 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'personal portfolio' }
     ],
     link: [
+      { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Playfair+Display:400' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+  },
+  metaInfo: {
+    bodyAttrs: {
+      class: 'page__home'
+    }
   },
   generate: {
     routes: routes()
