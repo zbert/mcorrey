@@ -29,6 +29,8 @@ const createStore = () => {
           // getting next page
           if (index + 1 < works.length) {
             workpages[slug].next = sluggify(works[index + 1].title)
+          } else {
+            workpages[slug].next = sluggify(works[0].title)
           }
           // get meta info
           workpages[slug].meta = {

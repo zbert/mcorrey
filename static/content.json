@@ -8,7 +8,13 @@
       "twitter",
       "facebook",
       "linkedin"
-    ]
+    ],
+    "caseStudy": {
+      "roleLabel": "Role",
+      "yearLabel": "Year",
+      "agencyLabel": "Agency",
+      "externalLinkLabel": "Visit Site"
+    }
   },
   "navigation": {
     "logo": "Michael",
@@ -92,7 +98,8 @@
         "caption": "Taft Caption",
         "role":"Art Director",
         "year": "2017",
-        "agency": "One North In slackteractive",
+        "agency": "One North Interactive",
+        "siteLink": "https://www.taftlaw.com",
         "images": []
       },
       {
@@ -102,6 +109,7 @@
         "role":"Art Director",
         "year": "2017",
         "agency": "One North Interactive",
+        "siteLink": "https://www.gtlaw.com/",
         "images": []
       },
       {

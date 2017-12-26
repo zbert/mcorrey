@@ -17,12 +17,8 @@ body {
 	line-height: $font__line-height;
 
 	a, button{
-	
-		cursor: url(./../images/cursor-arrow.png), auto;
-	}
 
-	&.page__detail {
-		background-color: $color__white;
+		cursor: url(./../images/cursor-arrow.png), auto;
 	}
 }
 
