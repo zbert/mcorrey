@@ -50,7 +50,7 @@
     },
     "resume": {
       "label": "My Resume",
-      "url": "#pdf"
+      "url": "/files/resume_mc_2017.pdf"
     },
     "intro": [
       "Hello.",
@@ -79,7 +79,7 @@
     "pages": [
       {
         "title": "William Blair",
-        "featuredImage": "/images/william-blair/featured.jpg",
+        "featuredImage": "featured.jpg",
         "caption": "William Caption",
         "role":"Art Director",
         "year": "2017",
@@ -88,16 +88,16 @@
       },
       {
         "title": "Taft Law",
-        "featuredImage": "/images/taft/featured.jpg",
+        "featuredImage": "featured.jpg",
         "caption": "Taft Caption",
         "role":"Art Director",
         "year": "2017",
-        "agency": "One North Interactive",
+        "agency": "One North In slackteractive",
         "images": []
       },
       {
         "title": "Greenberg Traurig",
-        "featuredImage": "/images/greenberg/featured.jpg",
+        "featuredImage": "featured.jpg",
         "caption": "Greenberg Caption",
         "role":"Art Director",
         "year": "2017",
@@ -106,7 +106,7 @@
       },
       {
         "title": "ExLab 2017",
-        "featuredImage": "/images/exlab/featured.jpg",
+        "featuredImage": "featured.jpg",
         "caption": "ExLab Caption",
         "role":"Art Director",
         "year": "2017",
@@ -115,7 +115,7 @@
       },
       {
         "title": "Burns & McDonnell",
-        "featuredImage": "/images/burns/featured.jpg",
+        "featuredImage": "featured.jpg",
         "caption": "Burns Caption",
         "role":"Art Director",
         "year": "2017",
@@ -124,7 +124,7 @@
       },
       {
         "title": "Starbar",
-        "featuredImage": "/images/starbar/featured.jpg",
+        "featuredImage": "featured.jpg",
         "caption": "Starbar Caption",
         "role":"Art Director",
         "year": "2017",
@@ -133,7 +133,7 @@
       },
       {
         "title": "Adnoyvate",
-        "featuredImage": "/images/adnoyvate/featured.jpg",
+        "featuredImage": "featured.jpg",
         "caption": "Adnoyvate Caption",
         "role":"Art Director",
         "year": "2017",

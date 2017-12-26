@@ -13,7 +13,7 @@
         </address>
       </div>
     </div>
-
+    <div class="layout-corman__slogan">{{settings.slogan}}</div>
     <div class="layout-corman__faded">
       <img class="layout-corman__faded-img" :src="site.backgroundImage">
     </div>

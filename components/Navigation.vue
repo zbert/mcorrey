@@ -8,10 +8,10 @@
       <nuxt-link class="site-nav__link site-nav__link--top" to="/work">
          <span class="site-nav__title" v-text="navigation.labels.work"></span>
       </nuxt-link>
-      <nuxt-link class="site-nav__link site-nav__link--left" to="/about">
+      <nuxt-link class="site-nav__link site-nav__link--right" to="/about">
          <span class="site-nav__title" v-text="navigation.labels.about"></span>
       </nuxt-link>
-      <nuxt-link class="site-nav__link site-nav__link--right" to="/contact">
+      <nuxt-link class="site-nav__link site-nav__link--left" to="/contact">
          <span class="site-nav__title" v-text="navigation.labels.contact"></span>
       </nuxt-link>
     </nav>
