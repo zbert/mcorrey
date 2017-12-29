@@ -10,7 +10,7 @@
       margin-top: 0.5em;
     }
   }
-  
+
   &__icon {
     @include ico-icon();
 
@@ -24,7 +24,7 @@
       color: $color__black;
     }
   }
-  
+
   @include respond-to('between') {
     top: px-to-em($wrapper-padding);
     right: px-to-em($wrapper-padding);
@@ -42,7 +42,7 @@
 
       &:hover {
         &:after {
-          width: 100%;
+          width: calc(100% + 0.5em) ;
         }
       }
 
@@ -51,7 +51,7 @@
         position: absolute;
         width: 0%;
         top: 50%;
-        left: 0;
+        left: -0.25em;
         border-top: 4px solid $color__pink;
         display: inline-block;
         transition: width 0.75s cubic-bezier(1, 0, 0, 1);
@@ -59,4 +59,3 @@
     }
   }
 }
-  
