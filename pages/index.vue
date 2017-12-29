@@ -18,7 +18,6 @@ export default {
   computed: {
     ...mapState([
       'home',
-      'settings',
       'site'
     ]),
     renderHeading () {

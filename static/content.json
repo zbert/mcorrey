@@ -5,9 +5,22 @@
   "settings": {
     "slogan": "Let’s make things better, beautifully.",
     "socialLinks": [
-      "twitter",
-      "facebook",
-      "linkedin"
+      {
+        "icon": "twitter",
+        "url": "https://twitter.com/michaelcorrey"
+      },
+      {
+        "icon": "facebook",
+        "url": "https://www.facebook.com/profile.php?id=6845797"
+      },
+      {
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/michael-correy-b5330b14/"
+      },
+      {
+        "icon": "instagram",
+        "url": "https://www.instagram.com/michaelcorrey/"
+      }
     ],
     "caseStudy": {
       "roleLabel": "Role",
