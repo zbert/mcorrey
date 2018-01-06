@@ -29,11 +29,11 @@ export default {
     }
   },
   mounted () {
-    document.getElementsByTagName('body')[0].classList.add('page__home')
+    // document.getElementsByTagName('body')[0].classList.add('page__home')
 
-    window.setTimeout(() => {
-      document.getElementsByTagName('body')[0].classList.add('fade-shit')
-    }, 500)
+    // window.setTimeout(() => {
+    //   document.getElementsByTagName('body')[0].classList.add('fade-shit')
+    // }, 500)
   }
 }
 </script>

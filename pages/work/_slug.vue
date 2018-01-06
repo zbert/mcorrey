@@ -24,7 +24,7 @@
       </p>
     </div>
   </article>
-  <a class="case-study__next" :href="nextLink">
+  <nuxt-link class="case-study__next" :to="nextLink">
     <span class="case-study__next-label" v-text="nextLabel"></span>
     <span class="case-study__next-arrow">
       <svg viewBox="0 0 142 129" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +35,7 @@
         </g>
       </svg>
     </span>
-  </a>
+  </nuxt-link>
 </div>
 </template>
 

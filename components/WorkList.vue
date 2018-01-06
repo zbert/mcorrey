@@ -1,10 +1,12 @@
 <template>
 <ul class="work-list">
   <li v-for="project in workProjects" class="work-list__project">
-    <a class="work-list__link btn-strikethrough btn-strikethrough--thick" :href="'work/' + project.slug">{{project.title}}</a>
-      <figure  :if="project.imageurl" class="work-list__figure">
-        <img class="work-list__shot" :src="project.featuredImage">
-      </figure>
+
+    <nuxt-link class="work-list__link btn-strikethrough btn-strikethrough--thick"
+      :to="`/work/${project.slug}`">{{project.title}}</nuxt-link>
+    <figure  :if="project.imageurl" class="work-list__figure">
+      <img class="work-list__shot" :src="project.featuredImage">
+    </figure>
   </li>
 </ul>
 </template>
