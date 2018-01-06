@@ -4,7 +4,7 @@ $trans-delay: 1s;
   .layout-corman__faded-img {
     opacity: 0;
     transition: opacity $trans-delay ease-in;
-    
+
   }
   .site-header__title,
   .site-nav__link,
@@ -29,33 +29,33 @@ $trans-delay: 1s;
   }
 }
 
-.fade-shit {
-  .layout-corman__faded-img,
-  .site-header__title,
-  .site-nav__link,
-  .social-links {
-    opacity: 1;
-  }
-}
+// .fade-shit {
+//   .layout-corman__faded-img,
+//   .site-header__title,
+//   .site-nav__link,
+//   .social-links {
+//     opacity: 1;
+//   }
+// }
 
 
 $trans-dur: 0.075s;
 $trans-delay-base: $trans-delay*2.5;
 
 .titles__main--home {
-  span {
-    opacity: 0;
-    transform: translateY(-100%) rotateY(-180deg);
-    transition: opacity 0.25s ease-in ($trans-dur*22 + $trans-delay-base),
-    transform 0.25s  ease-in ($trans-dur*22 + $trans-delay-base);
-    display: inline-block;
-    position: relative;
+  // span {
+  //   opacity: 0;
+  //   transform: translateY(-100%) rotateY(-180deg);
+  //   transition: opacity 0.25s ease-in ($trans-dur*22 + $trans-delay-base),
+  //   transform 0.25s  ease-in ($trans-dur*22 + $trans-delay-base);
+  //   display: inline-block;
+  //   position: relative;
 
-    .fade-shit &{
-      opacity: 1;
-      transform: translateY(0) rotateY(0);
-    }
-  }
+  //   .fade-shit &{
+  //     opacity: 1;
+  //     transform: translateY(0) rotateY(0);
+  //   }
+  // }
 }
 
 @for $i from 1 through 22 {
