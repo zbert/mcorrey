@@ -46,7 +46,7 @@ export default {
       },
       {
         opacity: 1,
-        delay: 1
+        delay: 0.5
       }, 0.5).fromTo(footer, 0.5, {
         opacity: 0
       },

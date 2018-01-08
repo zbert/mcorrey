@@ -23,6 +23,12 @@
         <a :href="item.siteLink" class="case-study__meta-link" v-text="settings.caseStudy.externalLinkLabel"></a>
       </p>
     </div>
+
+    <div v-if="item.images.length" class="case-study__screenshots">
+
+      <img v-if="item.watermark" class="case-study__watermark" :src="item.watermark">
+    </div>
+
   </article>
   <nuxt-link class="case-study__next" :to="nextLink">
     <span class="case-study__next-label" v-text="nextLabel"></span>
@@ -41,6 +47,7 @@
 
 <script>
 import {mapState} from 'vuex'
+import CaseStudyDesign from '@/components/CaseStudyDesign.vue'
 
 export default {
   layout: 'white',
@@ -60,6 +67,9 @@ export default {
       }
     }
     return {}
+  },
+  components: {
+    CaseStudyDesign
   },
   data: () => ({
   }),

@@ -103,7 +103,13 @@
         "role":"Art Director",
         "year": "2017",
         "agency": "One North Interactive",
-        "images": []
+        "watermark": "/images/william-blair/watermark.jpg",
+        "images": [
+          "/images/laptop-1.jpg",
+          "/images/laptop-2.jpg",
+          "/images/detail-3.jpg",
+          "/images/detail-4.jpg"
+        ]
       },
       {
         "title": "Taft Law",
@@ -113,7 +119,13 @@
         "year": "2017",
         "agency": "One North Interactive",
         "siteLink": "https://www.taftlaw.com",
-        "images": []
+        "watermark": "/images/taft-law/watermark.jpg",
+        "images": [
+          "/images/laptop-1.jpg",
+          "/images/laptop-2.jpg",
+          "/images/laptop-3.jpg",
+          "/images/detail-4.jpg"
+        ]
       },
       {
         "title": "Greenberg Traurig",
