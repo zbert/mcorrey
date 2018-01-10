@@ -48,7 +48,7 @@ export default {
 
       let tl = new TimelineLite()
 
-      tl.fromTo(background, 1, {
+      tl.fromTo(background, 1.5, {
         opacity: 0
       },
       {
@@ -61,7 +61,7 @@ export default {
         opacity: 1,
         x: 0,
         ease: 'Power3.easeOut'
-      }, 0.2, '+=1')
+      }, 0.2, '+=0.5')
     }
   }
 }

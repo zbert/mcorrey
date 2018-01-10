@@ -43,6 +43,10 @@ module.exports = {
   css: [
     '@/assets/styles/main.scss'
   ],
+  plugins: [
+    // ssr: false to only include it on client-side
+    { src: '~/plugins/vue-scrollwatch.js', ssr: false }
+  ],
   /*
   ** Customize the progress bar color
   */

@@ -4,11 +4,9 @@
   text-align: center;
   display: block;
   flex-grow: 1;
+  background-color: $color__white;
+  min-height: 100vh;
 
-  &--white {
-    background-color: $color__white;
-    height: 100vh;
-  }
 
   &__container {
     display: flex;

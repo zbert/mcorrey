@@ -164,7 +164,7 @@
 
     &__design{
       & + &  {
-        top: px-to-em($spacing__xl);
+        margin-top: px-to-em($spacing__xl);
       }
       &--multi {
         display: flex;

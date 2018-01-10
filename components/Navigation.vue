@@ -37,7 +37,7 @@ export default {
     beginHomeAnimation () {
       let {nav} = this.$refs
       let navNodes = [...nav.getElementsByTagName('a')]
-      const footer = document.querySelector('.site-footer')
+      const footerLinks = [...document.querySelector('.site-footer').getElementsByTagName('li')]
 
       let tl = new TimelineLite()
 
@@ -47,12 +47,14 @@ export default {
       {
         opacity: 1,
         delay: 0.5
-      }, 0.5).fromTo(footer, 0.5, {
-        opacity: 0
+      }, 0.5).staggerFromTo(footerLinks, 0.5, {
+        opacity: 0,
+        x: 20
       },
       {
-        opacity: 1
-      }, '-=1')
+        opacity: 1,
+        x: 0
+      }, 0.1)
     }
   }
 }

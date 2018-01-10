@@ -1,34 +1,6 @@
 $trans-delay: 1s;
 
-.page__home {
-
-  // .site-nav__link {
-  //   &:nth-child(1) {
-  //     transition-delay: $trans-delay;
-  //   }
-  //   &:nth-child(2) {
-  //     transition-delay: $trans-delay*1.5;
-  //   }
-  //   &:nth-child(3) {
-  //     transition-delay: $trans-delay*2;
-  //   }
-  // }
-  // .social-links {
-  //   transition-delay: $trans-delay*2.5;
-  // }
-}
-
 .fade-word {
-  // opacity: 0;
   display: inline-block;
   position: relative;
 }
-
-// .fade-shit {
-//   .layout-corman__faded-img,
-//   .site-header__title,
-//   .site-nav__link,
-//   .social-links {
-//     opacity: 1;
-//   }
-// }

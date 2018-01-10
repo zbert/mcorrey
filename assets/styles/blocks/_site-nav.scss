@@ -70,6 +70,19 @@ $site-nav__font-size: 12px;
 
   &__title {
     @include font($font-family__titles, $site-nav__font-size);
+
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 0%;
+      top: 45%;
+      left: -0.25em;
+      border-top: 4px solid $color__pink;
+      display: inline-block;
+      transition: width 0.75s cubic-bezier(1, 0, 0, 1);
+    }
   }
 
 
@@ -88,6 +101,14 @@ $site-nav__font-size: 12px;
 
       &--right {
         right: px-to-em($wrapper-padding);
+      }
+
+      &:hover {
+        .site-nav__title {
+          &:before {
+            width: 105%;
+          }
+        }
       }
     }
   }

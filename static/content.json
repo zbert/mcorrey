@@ -105,10 +105,10 @@
         "agency": "One North Interactive",
         "watermark": "/images/william-blair/watermark.jpg",
         "images": [
-          "/images/laptop-1.jpg",
-          "/images/laptop-2.jpg",
-          "/images/detail-3.jpg",
-          "/images/detail-4.jpg"
+          "laptop-1.jpg",
+          "laptop-2.jpg",
+          "detail-3.jpg",
+          "detail-4.jpg"
         ]
       },
       {
@@ -121,10 +121,11 @@
         "siteLink": "https://www.taftlaw.com",
         "watermark": "/images/taft-law/watermark.jpg",
         "images": [
-          "/images/laptop-1.jpg",
-          "/images/laptop-2.jpg",
-          "/images/laptop-3.jpg",
-          "/images/detail-4.jpg"
+          "laptop-1.jpg",
+          "laptop-2.jpg",
+          "laptop-3.jpg",
+          ["side-1.jpg", "side-2.jpg"],
+          "detail-6.jpg"
         ]
       },
       {

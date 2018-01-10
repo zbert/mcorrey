@@ -26,6 +26,8 @@
 
     <div v-if="item.images.length" class="case-study__screenshots">
 
+      <case-study-design v-if="item.images.length > 0" v-for="(design, index) in item.images" :imageOption="design" :slug="slug" :key="'key-' + index" />
+
       <img v-if="item.watermark" class="case-study__watermark" :src="item.watermark">
     </div>
 
@@ -72,14 +74,15 @@ export default {
     CaseStudyDesign
   },
   data: () => ({
+    slug: ''
   }),
   computed: {
     ...mapState([
       'settings'
     ]),
     item () {
-      const slug = this.$route.params.slug
-      return this.$store.getters.workPages[slug]
+      this.slug = this.$route.params.slug
+      return this.$store.getters.workPages[this.slug]
     },
     nextLink () {
       return '/work/' + this.item.next
