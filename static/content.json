@@ -135,7 +135,11 @@
         "year": "2017",
         "agency": "One North Interactive",
         "siteLink": "https://www.gtlaw.com/",
-        "images": []
+        "images": ["laptop-1.jpg",
+          "laptop-1.png",
+          "laptop-2.png",
+          ["laptop-3.jpg", "laptop-3.jpg"]
+        ]
       },
       {
         "title": "ExLab 2017",
@@ -167,7 +171,7 @@
       {
         "title": "Adnoyvate",
         "featuredImage": "featured.jpg",
-        "caption": "Adnoyvate website art direction",
+        "caption": "Adnoyvate website art",
         "role":"Art Director",
         "year": "2017",
         "agency": "One North Interactive",
