@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     sectionScrollWatch (message) {
-      if (message.new === 'belowMiddle') {
+      if (message.new === 'aboveMiddle') {
         this.isInView = true
       }
     },

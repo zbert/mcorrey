@@ -19,6 +19,9 @@ export default {
 
     this.$refs.cursor.insertAdjacentElement('afterEnd', this.orbEl)
   },
+  beforeDestroy () {
+    document.removeEventListener('mousemove', this.requestTicker, false)
+  },
   methods: {
     requestTicker () {
       if (!this.rAFTicker) {

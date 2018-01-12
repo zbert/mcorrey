@@ -77,15 +77,13 @@ $site-nav__font-size: 12px;
       content: '';
       position: absolute;
       width: 0%;
-      top: 45%;
+      top: 35%;
       left: -0.25em;
       border-top: 4px solid $color__pink;
       display: inline-block;
       transition: width 0.75s cubic-bezier(1, 0, 0, 1);
     }
   }
-
-
 
   @include respond-to('between') {
 

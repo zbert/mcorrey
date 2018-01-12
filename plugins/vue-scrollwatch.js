@@ -34,7 +34,7 @@ VueScrollwatch.install = function (Vue, options) {
 
       self.removeFromSections(element)
 
-      if (self.sections.length === 0) {
+      if (self.sections && self.sections.length === 0) {
         self.removeScrollListeners()
       }
     },
@@ -109,7 +109,7 @@ VueScrollwatch.install = function (Vue, options) {
       return window.pageYOffset
     },
     getWindowMiddle () {
-      return this.getWindowTop() + (this.getWindowHeight() / 2)
+      return this.getWindowTop() + (this.getWindowHeight() / 4)
     },
     getWindowBottom () {
       return this.getWindowTop() + this.getWindowHeight()
