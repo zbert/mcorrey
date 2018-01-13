@@ -137,8 +137,7 @@
         "siteLink": "https://www.gtlaw.com/",
         "images": ["laptop-1.png",
           "laptop-2.png",
-          ["laptop-3.png", "laptop-4.png"],
-        
+          ["laptop-3.png", "laptop-4.png"]        
         ]
       },
       {
@@ -148,7 +147,11 @@
         "role":"Art Director",
         "year": "2017",
         "agency": "One North Interactive",
-        "images": [["image-1.png", "image-2.png"]
+        "images": [["image-1.png", "image-2.png"],
+      ["image-3.png", "image-4.png"],
+      ["image-5.png", "image-6.png"],
+      ["image-7.png", "image-8.png"],
+      ["image-9.png", "image-10.png"]
       ]
       },
       {
