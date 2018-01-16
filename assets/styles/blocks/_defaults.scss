@@ -15,15 +15,6 @@ body {
 	background-color: $color__black;
   font: map-get($font-weights, refular) 100% $font-family__body;
 	line-height: $font__line-height;
-
-	a, button{
-	
-		cursor: url(./../images/cursor-arrow.png), auto;
-	}
-
-	&.page__detail {
-		background-color: $color__white;
-	}
 }
 
 main {

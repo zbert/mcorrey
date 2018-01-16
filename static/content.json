@@ -5,10 +5,29 @@
   "settings": {
     "slogan": "Let’s make things better, beautifully.",
     "socialLinks": [
-      "twitter",
-      "facebook",
-      "linkedin"
-    ]
+      {
+        "icon": "twitter",
+        "url": "https://twitter.com/michaelcorrey"
+      },
+      {
+        "icon": "facebook",
+        "url": "https://www.facebook.com/profile.php?id=6845797"
+      },
+      {
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/michael-correy-b5330b14/"
+      },
+      {
+        "icon": "instagram",
+        "url": "https://www.instagram.com/michaelcorrey/"
+      }
+    ],
+    "caseStudy": {
+      "roleLabel": "Role",
+      "yearLabel": "Year",
+      "agencyLabel": "Agency",
+      "externalLinkLabel": "Visit Site"
+    }
   },
   "navigation": {
     "logo": "Michael",
@@ -50,14 +69,14 @@
     },
     "resume": {
       "label": "My Resume",
-      "url": "#pdf"
+      "url": "/files/resume_mc_2017.pdf"
     },
     "intro": [
       "Hello.",
       "",
       "My name is Michael.",
       "",
-      "I’m a art director and",
+      "I’m an art director and",
       "designer focusing on",
       "digital design and branding."
     ]
@@ -79,44 +98,66 @@
     "pages": [
       {
         "title": "William Blair",
-        "featuredImage": "/images/william-blair/featured.jpg",
-        "caption": "William Caption",
+        "featuredImage": "featured.jpg",
+        "caption": "William Blair pitch concept",
         "role":"Art Director",
         "year": "2017",
         "agency": "One North Interactive",
-        "images": []
+        "watermark": "/images/william-blair/watermark.jpg",
+        "images": [
+          "laptop-1.jpg",
+          "laptop-2.jpg",
+          "detail-3.jpg",
+          "detail-4.jpg"
+        ]
       },
       {
         "title": "Taft Law",
-        "featuredImage": "/images/taft/featured.jpg",
-        "caption": "Taft Caption",
+        "featuredImage": "featured.jpg",
+        "caption": "Taft Law website redesign",
         "role":"Art Director",
         "year": "2017",
         "agency": "One North Interactive",
-        "images": []
+        "siteLink": "https://www.taftlaw.com",
+        "images": [
+          "laptop-1.jpg",
+          "laptop-2.jpg",
+          "laptop-3.jpg",
+          ["side-1.jpg", "side-2.jpg"],
+          "detail-6.jpg"
+        ]
       },
       {
         "title": "Greenberg Traurig",
-        "featuredImage": "/images/greenberg/featured.jpg",
-        "caption": "Greenberg Caption",
+        "featuredImage": "featured.jpg",
+        "caption": "Greenberg Traurig brand and website redesign",
         "role":"Art Director",
         "year": "2017",
         "agency": "One North Interactive",
-        "images": []
+        "siteLink": "https://www.gtlaw.com/",
+        "images": ["laptop-1.png",
+          "laptop-2.png",
+          ["laptop-3.png", "laptop-4.png"]        
+        ]
       },
       {
         "title": "ExLab 2017",
-        "featuredImage": "/images/exlab/featured.jpg",
-        "caption": "ExLab Caption",
+        "featuredImage": "featured.jpg",
+        "caption": "Design system and branding for Experience Lab 2017 Conference in Chicago",
         "role":"Art Director",
         "year": "2017",
         "agency": "One North Interactive",
-        "images": []
+        "images": [["image-1.png", "image-2.png"],
+      ["image-3.png", "image-4.png"],
+      ["image-5.png", "image-6.png"],
+      ["image-7.png", "image-8.png"],
+      ["image-9.png", "image-10.png"]
+      ]
       },
       {
         "title": "Burns & McDonnell",
-        "featuredImage": "/images/burns/featured.jpg",
-        "caption": "Burns Caption",
+        "featuredImage": "featured.jpg",
+        "caption": "Burns & McDonnell Blog redesign",
         "role":"Art Director",
         "year": "2017",
         "agency": "One North Interactive",
@@ -124,8 +165,8 @@
       },
       {
         "title": "Starbar",
-        "featuredImage": "/images/starbar/featured.jpg",
-        "caption": "Starbar Caption",
+        "featuredImage": "featured.jpg",
+        "caption": "Starbar app UX/UI design and direction",
         "role":"Art Director",
         "year": "2017",
         "agency": "One North Interactive",
@@ -133,8 +174,8 @@
       },
       {
         "title": "Adnoyvate",
-        "featuredImage": "/images/adnoyvate/featured.jpg",
-        "caption": "Adnoyvate Caption",
+        "featuredImage": "featured.jpg",
+        "caption": "Adnoyvate website art",
         "role":"Art Director",
         "year": "2017",
         "agency": "One North Interactive",

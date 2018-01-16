@@ -10,7 +10,7 @@ $site-nav__font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.35em;
 
-    .page__detail & {
+    .layout-detail--white & {
       color: $color__black;
     }
 
@@ -70,9 +70,20 @@ $site-nav__font-size: 12px;
 
   &__title {
     @include font($font-family__titles, $site-nav__font-size);
+
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 0%;
+      top: 35%;
+      left: -0.25em;
+      border-top: 4px solid $color__pink;
+      display: inline-block;
+      transition: width 0.75s cubic-bezier(1, 0, 0, 1);
+    }
   }
-
-
 
   @include respond-to('between') {
 
@@ -88,6 +99,14 @@ $site-nav__font-size: 12px;
 
       &--right {
         right: px-to-em($wrapper-padding);
+      }
+
+      &:hover {
+        .site-nav__title {
+          &:before {
+            width: 105%;
+          }
+        }
       }
     }
   }

@@ -28,14 +28,24 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'personal portfolio' }
     ],
     link: [
+      { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Playfair+Display:400' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+  },
+  metaInfo: {
+    bodyAttrs: {
+      class: 'page__home'
+    }
   },
   generate: {
     routes: routes()
   },
   css: [
     '@/assets/styles/main.scss'
+  ],
+  plugins: [
+    // ssr: false to only include it on client-side
+    { src: '~/plugins/vue-scrollwatch.js', ssr: false }
   ],
   /*
   ** Customize the progress bar color

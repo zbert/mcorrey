@@ -9,18 +9,18 @@
     top: px-to-em($wrapper-padding--mobile);
     left: px-to-em($wrapper-padding--mobile);
     z-index: $zindex__site-header;
-    white-space: nowrap; 
+    white-space: nowrap;
 
-    .page__detail & {
+    .layout-detail--white & {
       color: $color__black;
     }
   }
 
   &__m,
   &__mask {
-    @include font($font-family__titles, $font-size--mobile);   
+    @include font($font-family__titles, $font-size--mobile);
     vertical-align: middle;
-  } 
+  }
 
   &__mask {
     display: inline-block;
@@ -33,7 +33,7 @@
     display: block;
     width: 100%;
   }
-  
+
 
   @include respond-to('between') {
     &__title {
@@ -53,6 +53,6 @@
       font-size: px-to-em($font-size);
     }
 
-    
+
   }
 }

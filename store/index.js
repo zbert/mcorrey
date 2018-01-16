@@ -23,11 +23,14 @@ const createStore = () => {
           // Getting work item
           workpages[slug] = {
             ...work,
-            slug
+            slug,
+            featuredImage: `./images/${slug}/${work.featuredImage}`
           }
           // getting next page
           if (index + 1 < works.length) {
             workpages[slug].next = sluggify(works[index + 1].title)
+          } else {
+            workpages[slug].next = sluggify(works[0].title)
           }
           // get meta info
           workpages[slug].meta = {

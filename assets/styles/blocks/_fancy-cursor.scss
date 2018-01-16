@@ -1,0 +1,32 @@
+$cursor-size: 11px;
+$orb-size: 50px;
+
+//turn off cursor for the entire site
+* {
+  cursor: none !important;
+}
+
+.fancy-cursor,
+.fancy-cursor__orb {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) translate(0, 0);
+  pointer-events: none;
+  z-index: $zindex__modal + 2;
+}
+
+.fancy-cursor {
+  width: px-to-em($cursor-size);
+  height: px-to-em($cursor-size);
+  background-color: #0e0b18
+
+}
+
+.fancy-cursor__orb {
+  width: px-to-em($orb-size);
+  height: px-to-em($orb-size);
+  background-color: rgba(255, 255, 255, 0.50); //rgba(255, 255, 255, 0.5);
+  z-index: $zindex__modal + 1;
+}

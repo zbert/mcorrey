@@ -32,6 +32,11 @@
     margin-bottom: 0.5em;
   }
 
+  &__meta-link {
+    font-family: $font-family__titles;
+    color: $color__pink;
+  }
+
   &__screenshots {
     margin-top: px-to-em($spacing__sm);
     position: relative;
@@ -59,7 +64,7 @@
   &__watermark {
     @include center-align(vertical);
 
-    top: px-to-em($spacing__sm);
+    top: px-to-em($spacing__xl * 2);
     display: block;
     max-width: 100%;
     z-index: -1;
@@ -76,7 +81,9 @@
     position: relative;
     &-label {
       position: relative;
-      
+      display: inline-block;
+
+
       &:before {
         content: '';
         position: absolute;
@@ -85,6 +92,21 @@
         border-top: 8px solid $color__pink;
         display: inline-block;
         transition: width 0.75s cubic-bezier(1, 0, 0, 1);
+      }
+    }
+
+    &-arrow {
+      display: inline-block;
+      position: relative;
+      width: 12%;
+      padding-bottom: 11%;
+      vertical-align: middle;
+      margin-left: 5%;
+
+      svg {
+        position: absolute;
+        top: 0;
+        left: 0;
       }
     }
 
@@ -99,7 +121,8 @@
 
 
   @include respond-to('between') {
-    &__title {
+    &__title,
+    &__next {
       font-size: 5vw;
     }
 
@@ -107,19 +130,28 @@
       margin-top: px-to-em($spacing__md, $font-size__h4--mobile)
     }
 
-    
-
     &__meta {
       display: flex;
       flex-wrap: nowrap;
-      margin: px-to-em($spacing__xl);
+      margin: px-to-em($spacing__xl) 0;
       text-align: left;
+      justify-content: center;
     }
 
     &__meta-item {
-      flex-grow:1;
-      padding-right: px-to-em($spacing__sm, 18px);
+      padding-right: 12%;
       font-size: px-to-em(18px);
+      margin-bottom: 0;
+
+      &:last-child {
+        padding-right: 0;
+      }
+
+      &--link {
+        align-self: flex-end;
+        flex-shrink: 0;
+        flex-grow: 0;
+      }
     }
 
     &__screenshots {
@@ -132,7 +164,7 @@
 
     &__design{
       & + &  {
-        top: px-to-em($spacing__xl);
+        margin-top: px-to-em($spacing__xl);
       }
       &--multi {
         display: flex;
@@ -145,7 +177,6 @@
         > img  {
           max-width: 45%;
         }
-        
       }
     }
   }
@@ -158,6 +189,10 @@
     &__caption {
       font-size: px-to-em($font-size__h4);
       margin-top: px-to-em($spacing__md, $font-size__h4)
+    }
+
+    &__next {
+      font-size: px-to-em($font-size__hero);
     }
   }
 }
