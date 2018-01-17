@@ -76,9 +76,9 @@
       "",
       "My name is Michael.",
       "",
-      "I’m a art director and",
+      "I’m an art director and",
       "designer focusing on",
-      "Digital Design and Branding."
+      "digital design and branding."
     ]
   },
   "work": {
@@ -89,7 +89,7 @@
     },
     "behance": {
       "label": "See More Work",
-      "url": "https://www.behance.com"
+      "url": "https://www.behance.net/michaelcorrey"      
     },
     "emoji": {
       "title": "Fire Emoji",
@@ -99,7 +99,7 @@
       {
         "title": "William Blair",
         "featuredImage": "featured.jpg",
-        "caption": "William Caption",
+        "caption": "William Blair pitch concept",
         "role":"Art Director",
         "year": "2017",
         "agency": "One North Interactive",
@@ -114,12 +114,11 @@
       {
         "title": "Taft Law",
         "featuredImage": "featured.jpg",
-        "caption": "Taft Caption",
+        "caption": "Taft Law website redesign",
         "role":"Art Director",
         "year": "2017",
         "agency": "One North Interactive",
         "siteLink": "https://www.taftlaw.com",
-        "watermark": "/images/taft-law/watermark.jpg",
         "images": [
           "laptop-1.jpg",
           "laptop-2.jpg",
@@ -131,48 +130,65 @@
       {
         "title": "Greenberg Traurig",
         "featuredImage": "featured.jpg",
-        "caption": "Greenberg Caption",
+        "caption": "Greenberg Traurig brand and website redesign",
         "role":"Art Director",
         "year": "2017",
         "agency": "One North Interactive",
         "siteLink": "https://www.gtlaw.com/",
-        "images": []
+        "images": ["laptop-1.png",
+          "laptop-2.png",
+          ["laptop-3.png", "laptop-4.png"]        
+        ]
       },
       {
         "title": "ExLab 2017",
         "featuredImage": "featured.jpg",
-        "caption": "ExLab Caption",
+        "caption": "Design system and branding for Experience Lab 2017 Conference in Chicago",
         "role":"Art Director",
         "year": "2017",
         "agency": "One North Interactive",
-        "images": []
+        "images": [["image-1.png", "image-2.png"],
+      ["image-3.png", "image-4.png"],
+      ["image-5.png", "image-6.png"],
+      ["image-7.png", "image-8.png"],
+      ["image-9.png", "image-10.png"]
+      ]
       },
       {
         "title": "Burns & McDonnell",
         "featuredImage": "featured.jpg",
-        "caption": "Burns Caption",
+        "caption": "Burns & McDonnell Blog redesign",
         "role":"Art Director",
         "year": "2017",
         "agency": "One North Interactive",
-        "images": []
+        "siteLink": "https://blog.burnsmcd.com/",
+        "images": [ "image-1.png",
+          "image-2.png",
+          "image-3.png",
+          "image-4.png"]
       },
       {
         "title": "Starbar",
         "featuredImage": "featured.jpg",
-        "caption": "Starbar Caption",
+        "caption": "Starbar app UX/UI design and direction",
         "role":"Art Director",
         "year": "2017",
-        "agency": "One North Interactive",
-        "images": []
+        "agency": "Celtic Chicago",
+        "images": ["image-1.png"]
       },
       {
         "title": "Adnoyvate",
         "featuredImage": "featured.jpg",
-        "caption": "Adnoyvate Caption",
+        "caption": "Adnoyvate website",
         "role":"Art Director",
         "year": "2017",
-        "agency": "One North Interactive",
-        "images": []
+        "agency": "Intouch Solutions",
+        "siteLink": "http://www.adynovate.com/",
+        "images": ["image-1.png",
+          "image-2.png",
+          "image-3.png",
+          "image-4.png",
+        "image-5.png"]
       }
     ]
   }

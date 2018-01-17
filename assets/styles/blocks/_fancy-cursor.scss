@@ -1,5 +1,5 @@
-$cursor-size: 8px;
-$orb-size: 20px;
+$cursor-size: 11px;
+$orb-size: 50px;
 
 //turn off cursor for the entire site
 * {
@@ -20,13 +20,13 @@ $orb-size: 20px;
 .fancy-cursor {
   width: px-to-em($cursor-size);
   height: px-to-em($cursor-size);
-  background-color: $color__pink;
+  background-color: #0e0b18
 
 }
 
 .fancy-cursor__orb {
   width: px-to-em($orb-size);
   height: px-to-em($orb-size);
-  background-color: rgba(0,0,0,0.75); //rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.50); //rgba(255, 255, 255, 0.5);
   z-index: $zindex__modal + 1;
 }
