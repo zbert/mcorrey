@@ -183,7 +183,11 @@
         "role":"Art Director",
         "year": "2017",
         "agency": "Intouch Solutions",
-        "images": []
+        "images": ["image-1.png",
+          "image-2.png",
+          "image-3.png",
+          "image-4.png",
+        "image-5"]
       }
     ]
   }
