@@ -52,7 +52,7 @@ export default {
         opacity: 0
       },
       {
-        opacity: 0.8
+        opacity: 0.6
       }).staggerFromTo(spanTagsNodes, 1.75, {
         opacity: 0,
         x: 75
