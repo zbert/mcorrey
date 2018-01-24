@@ -109,7 +109,7 @@ VueScrollwatch.install = function (Vue, options) {
       return window.pageYOffset
     },
     getWindowMiddle () {
-      return this.getWindowTop() + (this.getWindowHeight() / 4)
+      return this.getWindowTop() + (this.getWindowHeight() / 1.25)
     },
     getWindowBottom () {
       return this.getWindowTop() + this.getWindowHeight()

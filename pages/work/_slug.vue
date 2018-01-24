@@ -52,29 +52,6 @@ import {mapState} from 'vuex'
 import CaseStudyDesign from '@/components/CaseStudyDesign.vue'
 
 export default {
-  transition: {
-    css: false,
-    beforeEnter: function (el) {
-      console.log(el)
-      // ...
-    },
-    // the done callback is optional when
-    // used in combination with CSS
-    enter: function (el, done) {
-      console.log(el)
-      // ...
-      done()
-    },
-
-    // --------
-    // LEAVING
-    // --------
-
-    beforeLeave: function (el) {
-      console.log(el)
-      // ...
-    }
-  },
   layout: 'white',
   head () {
     if (this.item) {

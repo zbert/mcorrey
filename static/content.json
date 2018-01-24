@@ -10,8 +10,8 @@
         "url": "https://twitter.com/michaelcorrey"
       },
       {
-        "icon": "facebook",
-        "url": "https://www.facebook.com/profile.php?id=6845797"
+        "icon": "dribbble",
+        "url": "https://www.dribbble.com/michaelcorrey"
       },
       {
         "icon": "linkedin",
@@ -89,7 +89,7 @@
     },
     "behance": {
       "label": "See More Work",
-      "url": "https://www.behance.net/michaelcorrey"      
+      "url": "https://www.behance.net/michaelcorrey"
     },
     "emoji": {
       "title": "Fire Emoji",
@@ -137,7 +137,7 @@
         "siteLink": "https://www.gtlaw.com/",
         "images": ["laptop-1.png",
           "laptop-2.png",
-          ["laptop-3.png", "laptop-4.png"]        
+          ["laptop-3.png", "laptop-4.png"]
         ]
       },
       {
