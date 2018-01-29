@@ -28,7 +28,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'personal portfolio' }
     ],
     link: [
-      { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Playfair+Display:400' },
+      { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Josefin+Sans|Playfair+Display:400' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
