@@ -23,4 +23,5 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 
 
 
-// ask correy: Show at the bottom of every page??
+## Adding Icon to website
+https://icomoon.io/
