@@ -57,7 +57,7 @@ export default {
     if (this.item) {
       const meta = this.item.meta
       return {
-        title: meta.title,
+        title: 'Michael Correy',
         meta: [
           { name: 'description', content: meta.description },
           { property: 'og:description', content: meta.description },
