@@ -73,12 +73,16 @@
     },
     "intro": [
       "Hello.",
-      "",
       "My name is Michael.",
       "",
       "I specialize in art direction,",
-      "visual and product design and",
-      "UX strategy. Hit me up!"
+      "visual design and ux strategy.",
+      "NBD, but I've won some awards:",
+      "",
+      "Awwwards mobile site of the week",
+      "Webby x3",
+      "W3 Gold x3",
+      "W3 Silver x4"
     ]
   },
   "work": {
@@ -89,7 +93,7 @@
     },
     "behance": {
       "label": "See More Work",
-      "url": "https://www.behance.net/michaelcorrey"
+      "url": "https://www.dribbble.com/michaelcorrey"
     },
     "emoji": {
       "title": "Fire Emoji",
