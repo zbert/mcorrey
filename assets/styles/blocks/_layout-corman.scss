@@ -1,8 +1,13 @@
 .layout-corman {
   display: flex;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  width: 100%;
   align-items: center;
+
+  &--about {
+    padding-top: px-to-em($wrapper-padding--mobile * 4);
+    padding-bottom: px-to-em($wrapper-padding--mobile)
+  }
 
   &__faded {
 
@@ -50,6 +55,12 @@
   }
 
   @include respond-to('between') {
+
+    &--about {
+      padding-top: px-to-em($wrapper-padding * 2);
+      padding-bottom: px-to-em($wrapper-padding * 1.5);
+    }
+
     &__slogan {
       font-size: px-to-em(14px);
       left: px-to-em($wrapper-padding, 14px);

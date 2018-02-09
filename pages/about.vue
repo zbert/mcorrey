@@ -1,5 +1,5 @@
 <template>
-  <main class="layout-corman">
+  <main class="layout-corman layout-corman--about">
     <div class="layout-corman__copy layout-corman__copy--two-column wrapper">
 
       <div class="titles__main titles__main--right-align" v-html="aboutContent"></div>
