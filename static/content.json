@@ -158,18 +158,7 @@
       ["image-9.png", "image-10.png"]
       ]
       },
-      {
-        "title": "Jenny Brian",
-        "featuredImage": "featured.jpg",
-        "caption": "Wedding design system",
-        "role":"Art Director",
-        "year": "2018",
-        "images": ["image-1.png",
-          "image-2.png",
-          "image-3.png",
-          "image-4.png"
-  ]
-      },
+
       {
         "title": "Burns & McDonnell",
         "featuredImage": "featured.jpg",
