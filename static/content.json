@@ -77,12 +77,12 @@
       "",
       "I specialize in art direction,",
       "visual design and ux strategy.",
-      "NBD, but I've won some awards:",
       "",
+      "I've won some awards.",
       "Awwwards mobile site of the week",
+      "CSS Light featured site of the day x1",
       "Webby x3",
-      "W3 Gold x3",
-      "W3 Silver x4"
+      "W3 Gold x3 Silver x4"
     ]
   },
   "work": {
@@ -104,7 +104,7 @@
         "title": "William Blair",
         "featuredImage": "featured.jpg",
         "caption": "William Blair pitch concept",
-        "role":"Art Director",
+        "role":"UX Designer and Art Director",
         "year": "2017",
         "agency": "One North Interactive",
         "watermark": "/images/william-blair/watermark.jpg",
@@ -135,8 +135,8 @@
         "title": "Greenberg Traurig",
         "featuredImage": "featured.jpg",
         "caption": "Greenberg Traurig brand and website redesign",
-        "role":"Art Director",
-        "year": "2017",
+        "role":"UX Designer and Art Director",
+        "year": "2016",
         "agency": "One North Interactive",
         "siteLink": "https://www.gtlaw.com/",
         "images": ["laptop-1.png",
@@ -159,6 +159,18 @@
       ]
       },
       {
+        "title": "Jenny Brian",
+        "featuredImage": "featured.jpg",
+        "caption": "Wedding design system",
+        "role":"Art Director",
+        "year": "2018",
+        "images": ["image-1.png",
+          "image-2.png",
+          "image-3.png",
+          "image-4.png"
+  ]
+      },
+      {
         "title": "Burns & McDonnell",
         "featuredImage": "featured.jpg",
         "caption": "Burns & McDonnell Blog redesign",
@@ -175,8 +187,8 @@
         "title": "Starbar",
         "featuredImage": "featured.jpg",
         "caption": "Starbar app UX/UI design and direction",
-        "role":"Art Director",
-        "year": "2017",
+        "role":"UX Designer",
+        "year": "2016",
         "agency": "Celtic Chicago",
         "images": ["image-1.png"]
       },
@@ -185,7 +197,7 @@
         "featuredImage": "featured.jpg",
         "caption": "Adnoyvate website",
         "role":"Art Director",
-        "year": "2017",
+        "year": "2015",
         "agency": "Intouch Solutions",
         "siteLink": "http://www.adynovate.com/",
         "images": ["image-1.png",
