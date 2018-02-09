@@ -136,7 +136,7 @@
         "featuredImage": "featured.jpg",
         "caption": "Greenberg Traurig brand and website redesign",
         "role":"Art Director",
-        "year": "2017",
+        "year": "2016",
         "agency": "One North Interactive",
         "siteLink": "https://www.gtlaw.com/",
         "images": ["laptop-1.png",
@@ -159,6 +159,18 @@
       ]
       },
       {
+        "title": "Jenny + Brian",
+        "featuredImage": "featured.jpg",
+        "caption": "Wedding design system",
+        "role":"Art Director",
+        "year": "2018",
+        "images": ["image-1.png",
+          "image-2.png",
+          "image-3.png",
+          "image-4.png"
+  ]
+      },
+      {
         "title": "Burns & McDonnell",
         "featuredImage": "featured.jpg",
         "caption": "Burns & McDonnell Blog redesign",
@@ -176,7 +188,7 @@
         "featuredImage": "featured.jpg",
         "caption": "Starbar app UX/UI design and direction",
         "role":"Art Director",
-        "year": "2017",
+        "year": "2016",
         "agency": "Celtic Chicago",
         "images": ["image-1.png"]
       },
@@ -185,7 +197,7 @@
         "featuredImage": "featured.jpg",
         "caption": "Adnoyvate website",
         "role":"Art Director",
-        "year": "2017",
+        "year": "2015",
         "agency": "Intouch Solutions",
         "siteLink": "http://www.adynovate.com/",
         "images": ["image-1.png",
