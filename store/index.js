@@ -24,7 +24,7 @@ const createStore = () => {
           workpages[slug] = {
             ...work,
             slug,
-            featuredImage: `./images/${slug}/${work.featuredImage}`
+            featuredImage: `/images/${slug}/${work.featuredImage}`
           }
           // getting next page
           if (index + 1 < works.length) {
