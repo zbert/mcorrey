@@ -1,4 +1,8 @@
 {
   "title": "Work",
-  "description": "Check out my featured work"
+  "description": "Check out my featured work",
+  "projects": [
+    "static/_projects/taft-law.json",
+    "static/_projects/william-blair.json"
+  ]
 }

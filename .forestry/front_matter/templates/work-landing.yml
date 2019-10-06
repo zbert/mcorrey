@@ -22,3 +22,5 @@ fields:
       type: pages
       section: projects
   label: Projects
+pages:
+- static/_pages/work.json
