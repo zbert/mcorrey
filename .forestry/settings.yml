@@ -5,9 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: _pages/work.json
+  path: static/_pages/work.json
   label: Work Landing
-  match: "**/*"
 - type: directory
   path: static/_projects
   label: Projects
