@@ -42,4 +42,5 @@ fields:
   config: {}
   label: Images
 pages:
+- static/_projects/taft-law.json
 - static/_projects/william-blair.json
