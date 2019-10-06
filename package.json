@@ -13,20 +13,12 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "gsap": "^1.20.3",
-    "nuxt": "^1.0.0-rc11"
+    "gsap": "1.20.4",
+    "nuxt": "2.9.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint": "^4.3.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-loader": "^1.9.0",
-    "eslint-plugin-html": "^3.1.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
     "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6"
+    "sass-loader": "8.0.0"
   }
 }
