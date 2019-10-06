@@ -17,6 +17,7 @@ const routes = () =>
     .map(slug => `/${workFolderName}/${slug}`)
 
 module.exports = {
+  mode: 'spa',
   /*
   ** Headers of the page
   */
