@@ -41,6 +41,11 @@ fields:
   type: image_gallery
   config: {}
   label: Images
+- name: site_link
+  type: text
+  config:
+    required: false
+  label: Site Link
 pages:
 - static/_projects/taft-law.json
 - static/_projects/william-blair.json
