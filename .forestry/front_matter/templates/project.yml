@@ -32,6 +32,11 @@ fields:
   config:
     required: false
   label: Agency
+- name: site_link
+  type: text
+  config:
+    required: false
+  label: Site Link
 - name: watermark
   type: file
   config:
@@ -41,11 +46,6 @@ fields:
   type: image_gallery
   config: {}
   label: Images
-- name: site_link
-  type: text
-  config:
-    required: false
-  label: Site Link
 pages:
 - static/_projects/taft-law.json
 - static/_projects/william-blair.json
