@@ -3,6 +3,7 @@
   "description": "Check out my featured work",
   "projects": [
     "static/_projects/taft-law.json",
-    "static/_projects/william-blair.json"
+    "static/_projects/william-blair.json",
+    "static/_projects/burns-mcdonnell.json"
   ]
 }
