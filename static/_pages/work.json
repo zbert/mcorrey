@@ -2,6 +2,7 @@
   "title": "Work",
   "description": "Check out my featured work",
   "projects": [
+    "static/_projects/sta-100.json",
     "static/_projects/william-blair.json",
     "static/_projects/taft-law.json",
     "static/_projects/greenberg-traurig.json",
