@@ -55,6 +55,7 @@ fields:
     min: 
     max: 
 pages:
+- static/_projects/jenny-brian.json
 - static/_projects/exlab-2017.json
 - static/_projects/greenberg-traurig.json
 - static/_projects/william-blair.json
