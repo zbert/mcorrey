@@ -1,4 +1,46 @@
 {
+  "william-blair": {
+    "title": "William Blair",
+    "featured_image": "/images/work-william-blair.jpg",
+    "caption": "William Blair pitch concept",
+    "role": "UX Designer and Art Director",
+    "year": "2017",
+    "agency": "One North Interactive",
+    "watermark": "/images/william-blair/watermark.jpg",
+    "images_list": [
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/william-blair/laptop-1.jpg",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/william-blair/laptop-2.jpg",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/william-blair/laptop-3.jpg",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/william-blair/laptop-4.jpg",
+        "multi_image": []
+      }
+    ],
+    "slug": "william-blair",
+    "next": "taft-law",
+    "meta": {
+      "title": "William Blair",
+      "description": "William Blair pitch concept",
+      "image": "/images/work-william-blair.jpg"
+    }
+  },
   "taft-law": {
     "title": "Taft Law",
     "featured_image": "/images/taft-law/featured.jpg",
@@ -44,53 +86,51 @@
       }
     ],
     "slug": "taft-law",
-    "next": "william-blair",
+    "next": "greenberg-traurig",
     "meta": {
       "title": "Taft Law",
       "description": "Taft Law website redesign",
       "image": "/images/taft-law/featured.jpg"
     }
   },
-  "william-blair": {
-    "title": "William Blair",
-    "featured_image": "/images/work-william-blair.jpg",
-    "caption": "William Blair pitch concept",
+  "greenberg-traurig": {
+    "title": "Greenberg Traurig",
+    "featured_image": "/images/greenberg-traurig/featured.jpg",
+    "caption": "Greenberg Traurig brand and website redesign",
     "role": "UX Designer and Art Director",
-    "year": "2017",
+    "year": "2016",
     "agency": "One North Interactive",
-    "watermark": "/images/william-blair/watermark.jpg",
+    "site_link": "https://www.gtlaw.com/",
+    "watermark": "",
     "images_list": [
       {
         "template": "image-block",
         "image_type": "Single",
-        "single_image": "/images/william-blair/laptop-1.jpg",
+        "single_image": "/images/greenberg-traurig/laptop-1.png",
         "multi_image": []
       },
       {
         "template": "image-block",
         "image_type": "Single",
-        "single_image": "/images/william-blair/laptop-2.jpg",
+        "single_image": "/images/greenberg-traurig/laptop-2.png",
         "multi_image": []
       },
       {
         "template": "image-block",
-        "image_type": "Single",
-        "single_image": "/images/william-blair/laptop-3.jpg",
-        "multi_image": []
-      },
-      {
-        "template": "image-block",
-        "image_type": "Single",
-        "single_image": "/images/william-blair/laptop-4.jpg",
-        "multi_image": []
+        "image_type": "Multi Image",
+        "multi_image": [
+          "/images/greenberg-traurig/laptop-3.png",
+          "/images/greenberg-traurig/laptop-4.png"
+        ],
+        "single_image": ""
       }
     ],
-    "slug": "william-blair",
+    "slug": "greenberg-traurig",
     "next": "burns-mcdonnell",
     "meta": {
-      "title": "William Blair",
-      "description": "William Blair pitch concept",
-      "image": "/images/work-william-blair.jpg"
+      "title": "Greenberg Traurig",
+      "description": "Greenberg Traurig brand and website redesign",
+      "image": "/images/greenberg-traurig/featured.jpg"
     }
   },
   "burns-mcdonnell": {
@@ -129,11 +169,192 @@
       }
     ],
     "slug": "burns-mcdonnell",
-    "next": "taft-law",
+    "next": "exlab-2017",
     "meta": {
       "title": "Burns & McDonnell",
       "description": "Burns & McDonnell Blog redesign",
       "image": "/images/burns-&-mcdonnell/featured.jpg"
+    }
+  },
+  "exlab-2017": {
+    "title": "ExLab 2017",
+    "featured_image": "/images/exlab-2017/featured.jpg",
+    "caption": "Design system and branding for Experience Lab 2017 Conference in Chicago",
+    "role": "Art Director",
+    "year": "2017",
+    "agency": "One North Interactive",
+    "site_link": "",
+    "watermark": "",
+    "images_list": [
+      {
+        "template": "image-block",
+        "image_type": "Multi Image",
+        "multi_image": [
+          "/images/exlab-2017/image-1.png",
+          "/images/exlab-2017/image-2.png"
+        ],
+        "single_image": ""
+      },
+      {
+        "template": "image-block",
+        "image_type": "Multi Image",
+        "multi_image": [
+          "/images/exlab-2017/image-3.png",
+          "/images/exlab-2017/image-4.png"
+        ],
+        "single_image": ""
+      },
+      {
+        "template": "image-block",
+        "image_type": "Multi Image",
+        "multi_image": [
+          "/images/exlab-2017/image-5.png",
+          "/images/exlab-2017/image-6.png"
+        ],
+        "single_image": ""
+      },
+      {
+        "template": "image-block",
+        "image_type": "Multi Image",
+        "multi_image": [
+          "/images/exlab-2017/image-7.png",
+          "/images/exlab-2017/image-8.png"
+        ],
+        "single_image": ""
+      },
+      {
+        "template": "image-block",
+        "image_type": "Multi Image",
+        "multi_image": [
+          "/images/exlab-2017/image-9.png",
+          "/images/exlab-2017/image-10.png"
+        ],
+        "single_image": ""
+      }
+    ],
+    "slug": "exlab-2017",
+    "next": "jenny-brian",
+    "meta": {
+      "title": "ExLab 2017",
+      "description": "Design system and branding for Experience Lab 2017 Conference in Chicago",
+      "image": "/images/exlab-2017/featured.jpg"
+    }
+  },
+  "jenny-brian": {
+    "title": "Jenny Brian",
+    "featured_image": "/images/jenny-brian/featured.jpg",
+    "caption": "Wedding design system",
+    "role": "Art Director",
+    "year": "2018",
+    "agency": "",
+    "site_link": "",
+    "watermark": "",
+    "images_list": [
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/jenny-brian/image-1.png",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/jenny-brian/image-2.png",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/jenny-brian/image-3.png",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/jenny-brian/image-4.png",
+        "multi_image": []
+      }
+    ],
+    "slug": "jenny-brian",
+    "next": "starbar",
+    "meta": {
+      "title": "Jenny Brian",
+      "description": "Wedding design system",
+      "image": "/images/jenny-brian/featured.jpg"
+    }
+  },
+  "starbar": {
+    "title": "Starbar",
+    "featured_image": "/images/starbar/featured.jpg",
+    "caption": "Starbar app UX/UI design and direction",
+    "role": "UX Designer",
+    "year": "2016",
+    "agency": "Celtic Chicago",
+    "site_link": "",
+    "watermark": "",
+    "images_list": [
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/starbar/image-1.png",
+        "multi_image": []
+      }
+    ],
+    "slug": "starbar",
+    "next": "adnoyvate",
+    "meta": {
+      "title": "Starbar",
+      "description": "Starbar app UX/UI design and direction",
+      "image": "/images/starbar/featured.jpg"
+    }
+  },
+  "adnoyvate": {
+    "title": "Adnoyvate",
+    "featured_image": "/images/adnoyvate/featured.jpg",
+    "caption": "Adnoyvate website",
+    "role": "Art Director",
+    "year": "2015",
+    "agency": "Intouch Solutions",
+    "site_link": "http://www.adynovate.com/",
+    "watermark": "",
+    "images_list": [
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/adnoyvate/image-1.png",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/adnoyvate/image-2.png",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/adnoyvate/image-3.png",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/adnoyvate/image-4.png",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/adnoyvate/image-5.png",
+        "multi_image": []
+      }
+    ],
+    "slug": "adnoyvate",
+    "next": "william-blair",
+    "meta": {
+      "title": "Adnoyvate",
+      "description": "Adnoyvate website",
+      "image": "/images/adnoyvate/featured.jpg"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "title": "Starbar",
-  "featured_image": "",
+  "featured_image": "/images/starbar/featured.jpg",
   "caption": "Starbar app UX/UI design and direction",
   "role": "UX Designer",
   "year": "2016",
@@ -11,7 +11,7 @@
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "/images/starbar/image-1.jpg",
+      "single_image": "/images/starbar/image-1.png",
       "multi_image": []
     }
   ]

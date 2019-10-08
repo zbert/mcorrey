@@ -11,13 +11,13 @@
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "/images/greenberg-traurig/laptop-1.jpg",
+      "single_image": "/images/greenberg-traurig/laptop-1.png",
       "multi_image": []
     },
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "/images/greenberg-traurig/laptop-2.jpg",
+      "single_image": "/images/greenberg-traurig/laptop-2.png",
       "multi_image": []
     },
     {
