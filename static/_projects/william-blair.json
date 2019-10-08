@@ -22,13 +22,13 @@
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "/images/william-blair/laptop-3.jpg",
+      "single_image": "/images/william-blair/detail-3.jpg",
       "multi_image": []
     },
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "/images/william-blair/laptop-4.jpg",
+      "single_image": "/images/william-blair/detail-4.jpg",
       "multi_image": []
     }
   ]
