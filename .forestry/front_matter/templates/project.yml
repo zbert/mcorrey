@@ -46,6 +46,14 @@ fields:
   type: image_gallery
   config: {}
   label: Images
+- name: images_list
+  type: blocks
+  label: Images List
+  template_types:
+  - image-block
+  config:
+    min: 
+    max: 
 pages:
 - static/_projects/burns-mcdonnell.json
 - static/_projects/taft-law.json
