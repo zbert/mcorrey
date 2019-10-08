@@ -43,6 +43,14 @@
         "/images/taft-law/side-2.jpg"
       ],
       "single_image": ""
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/taft-law/detail-6.jpg",
+      "multi_image": [
+
+      ]
     }
   ]
 }
