@@ -26,6 +26,14 @@
       "multi_image": [
 
       ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/taft-law/laptop-3.jpg",
+      "multi_image": [
+
+      ]
     }
   ]
 }
