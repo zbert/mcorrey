@@ -42,10 +42,6 @@ fields:
   config:
     maxSize: 250
   label: Watermark
-- name: images
-  type: image_gallery
-  config: {}
-  label: Images
 - name: images_list
   type: blocks
   label: Images List
