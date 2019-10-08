@@ -2,8 +2,12 @@
   "title": "Work",
   "description": "Check out my featured work",
   "projects": [
-    "static/_projects/taft-law.json",
     "static/_projects/william-blair.json",
-    "static/_projects/burns-mcdonnell.json"
+    "static/_projects/taft-law.json",
+    "static/_projects/burns-mcdonnell.json",
+    "static/_projects/exlab-2017.json",
+    "static/_projects/jenny-brian.json",
+    "static/_projects/starbar.json",
+    "static/_projects/adnoyvate.json"
   ]
 }
