@@ -9,5 +9,23 @@
   "images": [
 
   ],
-  "site_link": "https://www.taftlaw.com"
+  "site_link": "https://www.taftlaw.com",
+  "images_list": [
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/taft-law/laptop-1.jpg",
+      "multi_image": [
+
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/taft-law/laptop-2.jpg",
+      "multi_image": [
+
+      ]
+    }
+  ]
 }
