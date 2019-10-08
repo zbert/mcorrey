@@ -23,4 +23,5 @@ fields:
       section: projects
   label: Projects
 pages:
+- static/_projects/pop-up-research.json
 - static/_pages/work.json
