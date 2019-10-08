@@ -34,6 +34,15 @@
       "multi_image": [
 
       ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "multi_image": [
+        "/images/taft-law/side-1.jpg",
+        "/images/taft-law/side-2.jpg"
+      ],
+      "single_image": ""
     }
   ]
 }
