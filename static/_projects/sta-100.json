@@ -1,7 +1,7 @@
 {
   "title": "STA 100",
   "featured_image": "/images/STA 100 poster.jpg",
-  "caption": "Design for STA 100 event",
+  "caption": "Visual design for STA 100 event",
   "role": "Visual Designer",
   "year": "2019",
   "agency": "IA Collaborative",
@@ -13,6 +13,7 @@
       "image_type": "Multi Image",
       "single_image": "/images/Screen Shot 2019-10-08 at 2.55.05 PM.png",
       "multi_image": [
+        "/images/STA 100 poster-1.jpg",
         "/images/Screen Shot 2019-10-08 at 2.55.05 PM-1.png",
         "/images/Screen Shot 2019-10-08 at 2.55.34 PM.png"
       ]
