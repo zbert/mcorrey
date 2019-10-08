@@ -1,4 +1,33 @@
 ---
 label: Image Block
 hide_body: true
-fields: []
+fields:
+- name: image_type
+  type: select
+  default: Single
+  config:
+    required: true
+    options:
+    - Single
+    - Multi Image
+    source:
+      type: simple
+      section: ''
+      file: 
+      path: 
+  label: Image Type
+- name: single_image
+  type: file
+  config:
+    maxSize: 250
+  label: Single Image
+  showOnly:
+    field: image_type
+    value: Single
+- name: multi_image
+  type: image_gallery
+  config: {}
+  label: Multi Image
+  showOnly:
+    field: image_type
+    value: Multi Image
