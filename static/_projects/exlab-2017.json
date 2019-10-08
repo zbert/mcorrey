@@ -1,16 +1,57 @@
 {
   "title": "ExLab 2017",
-  "featured_image": "",
-  "caption": "",
-  "role": "",
-  "year": "",
-  "agency": "",
+  "featured_image": "/images/exlab-2017/featured.jpg",
+  "caption": "Design system and branding for Experience Lab 2017 Conference in Chicago",
+  "role": "Art Director",
+  "year": "2017",
+  "agency": "One North Interactive",
   "site_link": "",
   "watermark": "",
-  "images": [
-
-  ],
   "images_list": [
-
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "multi_image": [
+        "/images/exlab-2017/image-1.png",
+        "/images/exlab-2017/image-2.png"
+      ],
+      "single_image": ""
+    },
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "multi_image": [
+        "/images/exlab-2017/image-3.png",
+        "/images/exlab-2017/image-4.png"
+      ],
+      "single_image": ""
+    },
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "multi_image": [
+        "/images/exlab-2017/image-5.png",
+        "/images/exlab-2017/image-6.png"
+      ],
+      "single_image": ""
+    },
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "multi_image": [
+        "/images/exlab-2017/image-7.png",
+        "/images/exlab-2017/image-8.png"
+      ],
+      "single_image": ""
+    },
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "multi_image": [
+        "/images/exlab-2017/image-9.png",
+        "/images/exlab-2017/image-10.png"
+      ],
+      "single_image": ""
+    }
   ]
 }

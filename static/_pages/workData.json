@@ -59,11 +59,31 @@
     "year": "2017",
     "agency": "One North Interactive",
     "watermark": "/images/william-blair/watermark.jpg",
-    "images": [
-      "/images/william-blair/laptop-1.jpg",
-      "/images/william-blair/laptop-2.jpg",
-      "/images/william-blair/detail-4.jpg",
-      "/images/william-blair/detail-3.jpg"
+    "images_list": [
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/william-blair/laptop-1.jpg",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/william-blair/laptop-2.jpg",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/william-blair/laptop-3.jpg",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/william-blair/laptop-4.jpg",
+        "multi_image": []
+      }
     ],
     "slug": "william-blair",
     "next": "burns-mcdonnell",
@@ -77,10 +97,10 @@
     "title": "Burns & McDonnell",
     "featured_image": "/images/burns-&-mcdonnell/featured.jpg",
     "caption": "Burns & McDonnell Blog redesign",
-    "role": "",
-    "year": "",
-    "agency": "",
-    "site_link": "",
+    "role": "Art Director",
+    "year": "2017",
+    "agency": "One North Interactive",
+    "site_link": "https://blog.burnsmcd.com/",
     "watermark": "",
     "images_list": [
       {

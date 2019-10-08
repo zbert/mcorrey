@@ -1,16 +1,33 @@
 {
   "title": "Greenberg Traurig",
-  "featured_image": "",
-  "caption": "",
-  "role": "",
-  "year": "",
-  "agency": "",
-  "site_link": "",
+  "featured_image": "/images/greenberg-traurig/featured.jpg",
+  "caption": "Greenberg Traurig brand and website redesign",
+  "role": "UX Designer and Art Director",
+  "year": "2016",
+  "agency": "One North Interactive",
+  "site_link": "https://www.gtlaw.com/",
   "watermark": "",
-  "images": [
-
-  ],
   "images_list": [
-
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/greenberg-traurig/laptop-1.jpg",
+      "multi_image": []
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/greenberg-traurig/laptop-2.jpg",
+      "multi_image": []
+    },
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "multi_image": [
+        "/images/greenberg-traurig/laptop-3.png",
+        "/images/greenberg-traurig/laptop-4.png"
+      ],
+      "single_image": ""
+    }
   ]
 }
