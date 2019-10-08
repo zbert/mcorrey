@@ -51,6 +51,7 @@ fields:
     min: 
     max: 
 pages:
+- static/_projects/sta-100.json
 - static/_projects/starbar.json
 - static/_projects/greenberg-traurig.json
 - static/_projects/jenny-brian.json
