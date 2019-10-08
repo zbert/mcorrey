@@ -7,10 +7,30 @@
   "agency": "",
   "site_link": "",
   "watermark": "",
-  "images": [
-    "/images/burns-&-mcdonnell/image-4.png",
-    "/images/burns-&-mcdonnell/image-3.png",
-    "/images/burns-&-mcdonnell/image-2.png",
-    "/images/burns-&-mcdonnell/image-1.png"
+  "images_list": [
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/burns-&-mcdonnell/image-4.png",
+      "multi_image": []
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/burns-&-mcdonnell/image-3.png",
+      "multi_image": []
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/burns-&-mcdonnell/image-2.png",
+      "multi_image": []
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/burns-&-mcdonnell/image-1.png",
+      "multi_image": []
+    }
   ]
 }

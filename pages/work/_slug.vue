@@ -24,9 +24,12 @@
       </p>
     </div>
 
-    <div v-if="item.images.length" class="case-study__screenshots">
+    <div v-if="item.images_list.length" class="case-study__screenshots">
 
-      <case-study-design v-if="item.images.length > 0" v-for="(design, index) in item.images" :imageOption="design" :slug="slug" :key="'key-' + index" />
+      <case-study-design
+        v-for="(design, index) in item.images_list" 
+        :imageOption="design"
+        :key="'key-' + index" />
 
       <img v-if="item.watermark" class="case-study__watermark" :src="item.watermark">
     </div>
@@ -82,13 +85,13 @@ export default {
     ]),
     item () {
       this.slug = this.$route.params.slug
-      return this.$store.getters.workPages[this.slug]
+      return this.$store.state.workPages[this.slug]
     },
     nextLink () {
       return '/work/' + this.item.next
     },
     nextLabel () {
-      return this.$store.getters.workPages[this.item.next].title
+      return this.$store.state.workPages[this.item.next].title
     }
   }
 }

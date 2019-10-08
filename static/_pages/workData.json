@@ -1,0 +1,119 @@
+{
+  "taft-law": {
+    "title": "Taft Law",
+    "featured_image": "/images/taft-law/featured.jpg",
+    "caption": "Taft Law website redesign",
+    "role": "Art Director",
+    "year": "2017",
+    "agency": "One North Interactive",
+    "watermark": "",
+    "site_link": "https://www.taftlaw.com",
+    "images_list": [
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/taft-law/laptop-1.jpg",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/taft-law/laptop-2.jpg",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/taft-law/laptop-3.jpg",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Multi Image",
+        "multi_image": [
+          "/images/taft-law/side-1.jpg",
+          "/images/taft-law/side-2.jpg"
+        ],
+        "single_image": ""
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/taft-law/detail-6.jpg",
+        "multi_image": []
+      }
+    ],
+    "slug": "taft-law",
+    "next": "william-blair",
+    "meta": {
+      "title": "Taft Law",
+      "description": "Taft Law website redesign",
+      "image": "/images/taft-law/featured.jpg"
+    }
+  },
+  "william-blair": {
+    "title": "William Blair",
+    "featured_image": "/images/work-william-blair.jpg",
+    "caption": "William Blair pitch concept",
+    "role": "UX Designer and Art Director",
+    "year": "2017",
+    "agency": "One North Interactive",
+    "watermark": "/images/william-blair/watermark.jpg",
+    "images": [
+      "/images/william-blair/laptop-1.jpg",
+      "/images/william-blair/laptop-2.jpg",
+      "/images/william-blair/detail-4.jpg",
+      "/images/william-blair/detail-3.jpg"
+    ],
+    "slug": "william-blair",
+    "next": "burns-mcdonnell",
+    "meta": {
+      "title": "William Blair",
+      "description": "William Blair pitch concept",
+      "image": "/images/work-william-blair.jpg"
+    }
+  },
+  "burns-mcdonnell": {
+    "title": "Burns & McDonnell",
+    "featured_image": "/images/burns-&-mcdonnell/featured.jpg",
+    "caption": "Burns & McDonnell Blog redesign",
+    "role": "",
+    "year": "",
+    "agency": "",
+    "site_link": "",
+    "watermark": "",
+    "images_list": [
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/burns-&-mcdonnell/image-4.png",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/burns-&-mcdonnell/image-3.png",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/burns-&-mcdonnell/image-2.png",
+        "multi_image": []
+      },
+      {
+        "template": "image-block",
+        "image_type": "Single",
+        "single_image": "/images/burns-&-mcdonnell/image-1.png",
+        "multi_image": []
+      }
+    ],
+    "slug": "burns-mcdonnell",
+    "next": "taft-law",
+    "meta": {
+      "title": "Burns & McDonnell",
+      "description": "Burns & McDonnell Blog redesign",
+      "image": "/images/burns-&-mcdonnell/featured.jpg"
+    }
+  }
+}

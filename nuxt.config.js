@@ -1,20 +1,6 @@
-const content = require('./static/content.json')
-
-const workFolderName = 'work'
-
-const sluggify = (words) =>
-  words
-    .toLowerCase()
-    .split(' ')
-    .filter(a => a)
-    .join('-')
-
-const routes = () =>
-  content.work.pages
-    .filter(work => work.title)
-    .map(work => work.title)
-    .map(sluggify)
-    .map(slug => `/${workFolderName}/${slug}`)
+// const content = require('./static/content.json')
+const generateRoutes = require('./generateListOfRoutes')
+const generareWorkData = require('./generateWorkData')
 
 module.exports = {
   mode: 'spa',
@@ -26,7 +12,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'personal portfolio' }
+      { hid: 'description', name: 'description', content: 'Personal Portfolio' }
     ],
     link: [
       { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Josefin+Sans|Playfair+Display:400' },
@@ -39,7 +25,7 @@ module.exports = {
     }
   },
   generate: {
-    routes: routes()
+    routes: generateRoutes()
   },
   css: [
     '@/assets/styles/main.scss'

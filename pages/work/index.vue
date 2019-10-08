@@ -27,9 +27,7 @@ export default {
   computed: {
     ...mapState([
       'settings',
-      'work'
-    ]),
-    ...mapGetters([
+      'work',
       'workPages'
     ])
   }
