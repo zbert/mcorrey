@@ -1,4 +1,16 @@
 ---
 label: Homepage
 hide_body: true
-fields: []
+fields:
+- name: heading
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Heading
+- name: meta
+  type: include
+  config: {}
+  template: meta-info
+  label: Meta
