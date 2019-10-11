@@ -9,11 +9,9 @@ sections:
 - type: document
   path: static/_pages/contact.json
   label: Contact
-  match: "**/*"
 - type: document
   path: static/_pages/about.json
   label: About
-  match: "**/*"
 - type: document
   path: static/_pages/work.json
   label: Work Landing
@@ -26,7 +24,6 @@ sections:
 - type: document
   path: static/_settings/index.json
   label: Settings
-  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
