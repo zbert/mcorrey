@@ -17,3 +17,5 @@ fields:
       maxSize: 250
     label: File
   label: Resume
+pages:
+- static/_pages/about.json
