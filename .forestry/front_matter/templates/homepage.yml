@@ -14,3 +14,5 @@ fields:
   config: {}
   template: meta-info
   label: Meta
+pages:
+- static/_pages/homepage.json
