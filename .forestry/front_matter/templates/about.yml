@@ -1,4 +1,19 @@
 ---
 label: About
 hide_body: true
-fields: []
+fields:
+- name: resume
+  type: field_group
+  config: {}
+  fields:
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
+  - name: file
+    type: file
+    config:
+      maxSize: 250
+    label: File
+  label: Resume
