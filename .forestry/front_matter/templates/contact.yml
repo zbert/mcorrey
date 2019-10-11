@@ -1,4 +1,26 @@
 ---
 label: Contact
 hide_body: true
-fields: []
+fields:
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email
+- name: phone
+  type: text
+  config:
+    required: false
+  label: Phone
+- name: address
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: address
+- name: meta
+  type: include
+  config: {}
+  template: meta-info
+  label: Meta
