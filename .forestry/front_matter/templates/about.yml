@@ -24,5 +24,10 @@ fields:
     min: 
     max: 
   label: Copy
+- name: meta
+  type: include
+  config: {}
+  template: meta-info
+  label: Meta
 pages:
 - static/_pages/about.json
