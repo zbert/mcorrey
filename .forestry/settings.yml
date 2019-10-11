@@ -10,11 +10,11 @@ sections:
   path: static/_pages/homepage.json
   label: Homepage
 - type: document
-  path: static/_pages/contact.json
-  label: Contact
-- type: document
   path: static/_pages/about.json
   label: About
+- type: document
+  path: static/_pages/contact.json
+  label: Contact
 - type: document
   path: static/_pages/work.json
   label: Work Landing
