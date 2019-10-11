@@ -11,5 +11,13 @@
     "static/_projects/jenny-brian.json",
     "static/_projects/starbar.json",
     "static/_projects/adnoyvate.json"
-  ]
+  ],
+  "behance": {
+    "label": "See More Work",
+    "url": "https://www.dribbble.com/michaelcorrey"
+  },
+  "meta": {
+    "title": "Michael's Work",
+    "description": "Check out my featured work"
+  }
 }
