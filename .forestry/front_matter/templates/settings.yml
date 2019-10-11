@@ -1,0 +1,46 @@
+---
+label: Settings
+hide_body: true
+fields:
+- name: site_background
+  type: file
+  config:
+    maxSize: 250
+  label: Site Background
+- name: slogan
+  type: text
+  config:
+    required: false
+  label: slogan
+- name: case_study
+  type: field_group
+  config: {}
+  fields:
+  - name: role_label
+    type: text
+    config:
+      required: false
+    label: Role Label
+  - name: year_label
+    type: text
+    config:
+      required: false
+    label: Year Label
+  - name: agency_label
+    type: text
+    config:
+      required: false
+    label: Agency Label
+  - name: external_link_label
+    type: text
+    config:
+      required: false
+    label: External Link Label
+  label: Case Study
+- name: social
+  type: include
+  config: {}
+  template: social-links
+  label: Social Options
+pages:
+- static/_settings/index.json

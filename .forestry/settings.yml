@@ -4,6 +4,14 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Pages
+- type: document
+  path: static/_pages/contact.json
+  label: Contact
+- type: document
+  path: static/_pages/about.json
+  label: About
 - type: document
   path: static/_pages/work.json
   label: Work Landing
@@ -13,6 +21,9 @@ sections:
   create: documents
   match: "*.json"
   new_doc_ext: json
+- type: document
+  path: static/_settings/index.json
+  label: Settings
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''

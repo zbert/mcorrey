@@ -51,6 +51,7 @@ fields:
     min: 
     max: 
 pages:
+- static/_projects/william-blair.json
 - static/_projects/sta-100.json
 - static/_projects/starbar.json
 - static/_projects/greenberg-traurig.json
@@ -58,5 +59,4 @@ pages:
 - static/_projects/burns-mcdonnell.json
 - static/_projects/exlab-2017.json
 - static/_projects/adnoyvate.json
-- static/_projects/william-blair.json
 - static/_projects/taft-law.json

@@ -1,1 +1,28 @@
-{}
+{
+  "site_background": "/images/corman.png",
+  "slogan": "Let’s make things better, beautifully.",
+  "case_study": {
+    "role_label": "Role",
+    "year_label": "Year",
+    "agency_label": "Agency",
+    "external_link_label": "Visit Site"
+  },
+  "social_links": [
+    {
+      "url": "https://twitter.com/michaelcorrey",
+      "social_icon": "Twitter"
+    },
+    {
+      "url": "https://www.dribbble.com/michaelcorrey",
+      "social_icon": "Dribbble"
+    },
+    {
+      "url": "https://www.linkedin.com/in/michael-correy-b5330b14",
+      "social_icon": "LinkedIn"
+    },
+    {
+      "social_icon": "Instagram",
+      "url": "https://www.instagram.com/michaelcorrey/"
+    }
+  ]
+}

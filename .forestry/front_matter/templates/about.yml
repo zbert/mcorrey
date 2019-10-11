@@ -1,0 +1,33 @@
+---
+label: About
+hide_body: true
+fields:
+- name: resume
+  type: field_group
+  config: {}
+  fields:
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
+  - name: file
+    type: file
+    config:
+      maxSize: 250
+    label: File
+  label: Resume
+- name: copy
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Copy
+- name: meta
+  type: include
+  config: {}
+  template: meta-info
+  label: Meta
+pages:
+- static/_pages/about.json
