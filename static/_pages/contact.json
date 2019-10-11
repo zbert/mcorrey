@@ -1,11 +1,12 @@
 {
-  "email": "",
-  "phone": "",
+  "email": "michaelcorrey@gmail.com",
+  "phone": "317.590.6518",
   "address": [
-
+    "2047 W. Thomas St. G",
+    "Chicago, Il 60622"
   ],
   "meta": {
-    "title": "",
-    "description": ""
+    "title": "Contact Michael.",
+    "description": "Get in touch"
   }
 }
