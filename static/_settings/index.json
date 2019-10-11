@@ -6,5 +6,19 @@
     "year_label": "Year",
     "agency_label": "Agency",
     "external_link_label": "Visit Site"
-  }
+  },
+  "social_links": [
+    {
+      "url": "https://www.linkedin.com/in/michael-correy-b5330b14",
+      "social_icon": "LinkedIn"
+    },
+    {
+      "url": "https://twitter.com/michaelcorrey",
+      "social_icon": "Twitter"
+    },
+    {
+      "url": "https://www.dribbble.com/michaelcorrey",
+      "social_icon": "Dribbble"
+    }
+  ]
 }
