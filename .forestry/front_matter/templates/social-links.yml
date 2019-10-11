@@ -1,4 +1,32 @@
 ---
 label: Social Links
 hide_body: true
-fields: []
+fields:
+- name: social_links
+  type: field_group_list
+  fields:
+  - name: social_icon
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - Twitter
+      - Dribbble
+      - LinkedIn
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Social Icon
+  - name: url
+    type: text
+    config:
+      required: false
+    label: Url
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Social Links
