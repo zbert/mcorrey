@@ -37,3 +37,5 @@ fields:
       required: false
     label: External Link Label
   label: Case Study
+pages:
+- static/_settings/index.json

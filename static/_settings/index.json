@@ -1,1 +1,10 @@
-{}
+{
+  "site_background": "/images/corman.png",
+  "slogan": "Let’s make things better, beautifully.",
+  "case_study": {
+    "role_label": "Role",
+    "year_label": "Year",
+    "agency_label": "Agency",
+    "external_link_label": "Visit Site"
+  }
+}
