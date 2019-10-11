@@ -22,5 +22,20 @@ fields:
       type: pages
       section: projects
   label: Projects
+- name: behance
+  type: field_group
+  config: {}
+  fields:
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
+  - name: url
+    type: text
+    config:
+      required: false
+    label: Url
+  label: Behance
 pages:
 - static/_pages/work.json
