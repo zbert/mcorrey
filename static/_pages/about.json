@@ -16,5 +16,10 @@
     "CSS Light featured site of the day x1",
     "Webby x2",
     "W3 Gold x3 Silver x4"
-  ]
+  ],
+  "title": "",
+  "meta": {
+    "title": "About",
+    "description": "About Michael."
+  }
 }
