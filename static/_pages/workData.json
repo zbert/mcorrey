@@ -1,4 +1,33 @@
 {
+  "sta-100": {
+    "title": "STA 100",
+    "featured_image": "/images/STA 100 poster.jpg",
+    "caption": "Visual design for STA 100 event",
+    "role": "Visual Designer",
+    "year": "2019",
+    "agency": "IA Collaborative",
+    "site_link": "https://100.sta-chicago.org/",
+    "watermark": "",
+    "images_list": [
+      {
+        "template": "image-block",
+        "image_type": "Multi Image",
+        "single_image": "/images/Screen Shot 2019-10-08 at 2.55.05 PM.png",
+        "multi_image": [
+          "/images/STA 100 poster-1.jpg",
+          "/images/Screen Shot 2019-10-08 at 2.55.05 PM-1.png",
+          "/images/Screen Shot 2019-10-08 at 2.55.34 PM.png"
+        ]
+      }
+    ],
+    "slug": "sta-100",
+    "next": "william-blair",
+    "meta": {
+      "title": "STA 100",
+      "description": "Visual design for STA 100 event",
+      "image": "/images/STA 100 poster.jpg"
+    }
+  },
   "william-blair": {
     "title": "William Blair",
     "featured_image": "/images/work-william-blair.jpg",
@@ -23,13 +52,13 @@
       {
         "template": "image-block",
         "image_type": "Single",
-        "single_image": "/images/william-blair/laptop-3.jpg",
+        "single_image": "/images/william-blair/detail-3.jpg",
         "multi_image": []
       },
       {
         "template": "image-block",
         "image_type": "Single",
-        "single_image": "/images/william-blair/laptop-4.jpg",
+        "single_image": "/images/william-blair/detail-4.jpg",
         "multi_image": []
       }
     ],
@@ -350,7 +379,7 @@
       }
     ],
     "slug": "adnoyvate",
-    "next": "william-blair",
+    "next": "sta-100",
     "meta": {
       "title": "Adnoyvate",
       "description": "Adnoyvate website",
