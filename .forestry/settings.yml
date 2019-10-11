@@ -7,6 +7,10 @@ sections:
 - type: heading
   label: Pages
 - type: document
+  path: static/_pages/homepage.json
+  label: Homepage
+  match: "**/*"
+- type: document
   path: static/_pages/contact.json
   label: Contact
 - type: document
