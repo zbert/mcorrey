@@ -9,6 +9,10 @@
   },
   "social_links": [
     {
+      "social_icon": "Instagram",
+      "url": "https://www.instagram.com/michaelcorrey/"
+    },
+    {
       "url": "https://www.linkedin.com/in/michael-correy-b5330b14",
       "social_icon": "LinkedIn"
     },
