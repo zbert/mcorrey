@@ -7,13 +7,14 @@ fields:
   fields:
   - name: social_icon
     type: select
-    default: []
+    default: ''
     config:
       required: false
       options:
       - Twitter
       - Dribbble
       - LinkedIn
+      - Instagram
       source:
         type: simple
         section: 
