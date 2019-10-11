@@ -37,5 +37,10 @@ fields:
       required: false
     label: External Link Label
   label: Case Study
+- name: social
+  type: include
+  config: {}
+  template: social-links
+  label: Social Options
 pages:
 - static/_settings/index.json
