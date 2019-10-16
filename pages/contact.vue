@@ -15,7 +15,7 @@
     </div>
     <div class="layout-corman__slogan">{{settings.slogan}}</div>
     <div class="layout-corman__faded">
-      <img class="layout-corman__faded-img" :src="site.backgroundImage">
+      <img class="layout-corman__faded-img" :src="settings.site_background">
     </div>
   </main>
 </template>
@@ -23,14 +23,14 @@
 <script>
 import {mapState} from 'vuex'
 import contentHelpers from '@/mixins/contentHelpers.vue'
+import metaMixin from '@/mixins/metaMixin.vue'
 
 export default {
-  mixins: [contentHelpers],
+  mixins: [contentHelpers, metaMixin],
   computed: {
     ...mapState([
       'contact',
-      'settings',
-      'site'
+      'settings'
     ]),
     addressInfo () {
       return this.convertArrayToContent(this.contact.address)

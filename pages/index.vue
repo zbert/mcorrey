@@ -5,7 +5,7 @@
     </div>
 
     <div ref="background" class="layout-corman__faded">
-      <img class="layout-corman__faded-img" :src="site.backgroundImage">
+      <img class="layout-corman__faded-img" :src="settings.site_background">
     </div>
   </main>
 </template>
@@ -23,14 +23,14 @@ const breakIntoSpans = function (sentence) {
 export default {
   computed: {
     ...mapState([
-      'home',
-      'site'
+      'homepage',
+      'settings',
     ]),
     renderHeading () {
-      var formattedHtml = this.home.heading.reduce((accumulator, sentence, currIndex) => {
+      var formattedHtml = this.homepage.heading.reduce((accumulator, sentence, currIndex) => {
         let sentenceWithSpans = breakIntoSpans(sentence).join('')
 
-        return (currIndex === this.home.heading.length - 1)
+        return (currIndex === this.homepage.heading.length - 1)
           ? accumulator + sentenceWithSpans
           : accumulator + sentenceWithSpans + '<br>'
       }, '')

@@ -1,6 +1,6 @@
 {
   "resume": {
-    "label": "",
+    "label": "Resume",
     "file": "/images/Resume-1.pdf"
   },
   "copy": [
@@ -17,9 +17,8 @@
     "Webby x2",
     "W3 Gold x3 Silver x4"
   ],
-  "title": "",
   "meta": {
-    "title": "About",
+    "title": "About Michael.",
     "description": "About Michael."
   }
 }

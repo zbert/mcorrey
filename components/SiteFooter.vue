@@ -1,10 +1,12 @@
 <template>
   <footer class="site-footer">
     <ul class="social-links">
-      <li v-for="social in settings.socialLinks" class="social-links__item">
+      <li class="social-links__item"
+        v-for="social in settings.social_links" 
+        :key="social.url">
         <a target="_blank"
-          :title="'share on ' + social.icon"
-          :class="'social-links__icon icon-'+ social.icon"
+          :title="'share on ' + social.social_icon"
+          :class="[generateIconClass(social.social_icon)]"
           :href="social.url"></a>
       </li>
     </ul>
@@ -19,6 +21,11 @@ export default {
     ...mapState([
       'settings'
     ])
+  },
+  methods: {
+    generateIconClass (icon) {
+      return 'social-links__icon icon-'+ icon.toLowerCase()
+    }
   }
 }
 </script>

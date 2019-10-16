@@ -6,8 +6,8 @@
       <work-list :work-projects="workPages" ></work-list>
 
       <div class="layout-work__outro">
-        <img :title="work.emoji.title" :src="work.emoji.image" class="layout-work__emoji">
-        <a target="_blank" class="btn layout-work__behance-link" :href="work.behance.url">{{work.behance.label}}</a>
+        <img :title="workStatic.emoji.title" :src="workStatic.emoji.image" class="layout-work__emoji">
+        <a target="_blank" class="btn layout-work__behance-link" :href="workLanding.behance.url">{{workLanding.behance.label}}</a>
       </div>
 
       <div class="layout-corman__slogan">{{settings.slogan}}</div>
@@ -17,7 +17,7 @@
 
 
 <script>
-import {mapState, mapGetters} from 'vuex'
+import {mapState} from 'vuex'
 import WorkList from '@/components/WorkList.vue'
 
 export default {
@@ -27,8 +27,9 @@ export default {
   computed: {
     ...mapState([
       'settings',
-      'work',
-      'workPages'
+      'workStatic',
+      'workPages',
+      'workLanding'
     ])
   }
 }

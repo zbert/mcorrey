@@ -8,19 +8,19 @@
 
     <div class="case-study__meta">
       <p v-if="item.role" class="case-study__meta-item">
-        <span class="case-study__meta-label" v-text="settings.caseStudy.roleLabel"></span>
+        <span class="case-study__meta-label" v-text="settings.case_study.role_label"></span>
         <span class="case-study__meta-content" v-text="item.role"></span>
       </p>
       <p v-if="item.year" class="case-study__meta-item">
-        <span class="case-study__meta-label" v-text="settings.caseStudy.yearLabel"></span>
+        <span class="case-study__meta-label" v-text="settings.case_study.year_label"></span>
         <span class="case-study__meta-content" v-text="item.year">2017</span>
       </p>
       <p v-if="item.agency" class="case-study__meta-item">
-        <span class="case-study__meta-label" v-text="settings.caseStudy.agencyLabel"></span>
+        <span class="case-study__meta-label" v-text="settings.case_study.agency_label"></span>
         <span class="case-study__meta-content" v-text="item.agency"></span>
       </p>
       <p v-if="item.siteLink" class="case-study__meta-item case-study__meta-item--link">
-        <a :href="item.siteLink" class="case-study__meta-link" v-text="settings.caseStudy.externalLinkLabel"></a>
+        <a :href="item.siteLink" class="case-study__meta-link" v-text="settings.case_study.external_link_label"></a>
       </p>
     </div>
 
