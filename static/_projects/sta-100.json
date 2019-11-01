@@ -10,17 +10,18 @@
   "images_list": [
     {
       "template": "image-block",
-      "image_type": "Multi Image",
-      "single_image": "/images/Screen Shot 2019-10-08 at 2.55.05 PM.png",
+      "image_type": "Single",
+      "single_image": "/images/STA 100 poster-1.jpg",
       "multi_image": [
-        "/images/image2 (1).jpeg",
-        "/images/image3.jpeg",
-        "/images/image1 (1).jpeg",
-        "/images/STA 100 poster-1.jpg",
-        "/images/image4.jpeg",
-        "/images/Screen Shot 2019-10-08 at 2.55.05 PM-1.png",
-        "/images/image0.jpeg",
-        "/images/Screen Shot 2019-10-08 at 2.55.34 PM.png"
+        "/images/STA 100 poster-1.jpg"
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "",
+      "multi_image": [
+
       ]
     }
   ]
