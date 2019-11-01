@@ -23,6 +23,14 @@
       "multi_image": [
 
       ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/image2 (1).jpeg",
+      "multi_image": [
+
+      ]
     }
   ]
 }
