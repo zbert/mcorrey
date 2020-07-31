@@ -22,6 +22,15 @@
       "image_type": "Multi Image",
       "single_image": "",
       "multi_image": [
+        "/images/screen-shot-2020-07-31-at-12-51-26-pm.png",
+        "/images/screen-shot-2020-07-31-at-12-51-42-pm.png"
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "single_image": "",
+      "multi_image": [
 
       ]
     }
