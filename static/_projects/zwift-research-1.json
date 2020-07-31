@@ -42,6 +42,22 @@
       "multi_image": [
 
       ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "",
+      "multi_image": [
+
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "",
+      "multi_image": [
+
+      ]
     }
   ]
 }
