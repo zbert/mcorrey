@@ -27,7 +27,15 @@
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "",
+      "single_image": "/images/55658ea52d5ec868489977d647e12c66.png",
+      "multi_image": [
+
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/d27faf063698456543aacb4ddb273b20.png",
       "multi_image": [
 
       ]
