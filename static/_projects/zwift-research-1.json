@@ -1,13 +1,20 @@
 {
   "title": "Zwift Research",
   "featured_image": "/images/screen-shot-2020-07-31-at-1-48-52-pm.png",
-  "caption": "",
-  "role": "",
-  "year": "",
-  "agency": "",
+  "caption": "Research for the future of cycling for Zwift.",
+  "role": "Visual Designer",
+  "year": "2019",
+  "agency": "IA Collaborative",
   "site_link": "",
   "watermark": "",
   "images_list": [
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "single_image": "",
+      "multi_image": [
 
+      ]
+    }
   ]
 }
