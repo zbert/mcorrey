@@ -43,6 +43,14 @@
         "/images/here-3.jpg"
       ],
       "single_image": ""
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/here-1.jpg",
+      "multi_image": [
+
+      ]
     }
   ]
 }
