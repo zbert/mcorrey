@@ -8,6 +8,14 @@
   "site_link": "",
   "watermark": "",
   "images_list": [
-
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "multi_image": [
+        "/images/forma-1.jpg",
+        "/images/pre.jpg"
+      ],
+      "single_image": ""
+    }
   ]
 }
