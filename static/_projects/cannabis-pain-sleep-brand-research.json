@@ -40,8 +40,7 @@
       "image_type": "Multi Image",
       "multi_image": [
         "/images/here-6.jpg",
-        "/images/here-3.jpg",
-        "/images/here-1.jpg"
+        "/images/here-3.jpg"
       ],
       "single_image": ""
     }
