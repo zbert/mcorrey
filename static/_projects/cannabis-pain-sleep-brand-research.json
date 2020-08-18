@@ -30,7 +30,18 @@
       "template": "image-block",
       "image_type": "Multi Image",
       "multi_image": [
+        "/images/here-3.png",
         "/images/here.jpg"
+      ],
+      "single_image": ""
+    },
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "multi_image": [
+        "/images/here-6.jpg",
+        "/images/here-3.jpg",
+        "/images/here-1.jpg"
       ],
       "single_image": ""
     }
