@@ -54,14 +54,6 @@
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "/images/screen-shot-2020-07-31-at-1-31-53-pm.png",
-      "multi_image": [
-
-      ]
-    },
-    {
-      "template": "image-block",
-      "image_type": "Single",
       "single_image": "/images/screen-shot-2020-07-31-at-1-32-48-pm.png",
       "multi_image": [
 
