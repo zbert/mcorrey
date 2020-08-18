@@ -16,6 +16,15 @@
         "/images/pre.jpg"
       ],
       "single_image": ""
+    },
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "multi_image": [
+        "/images/forma-path-4.png",
+        "/images/forma-path-2.jpg"
+      ],
+      "single_image": ""
     }
   ]
 }
