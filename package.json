@@ -20,7 +20,7 @@
     "babel-eslint": "^7.2.3",
     "fs-extra": "8.1.0",
     "graceful-fs": "4.2.2",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "require-directory": "2.1.1",
     "sass-loader": "8.0.0"
   }
