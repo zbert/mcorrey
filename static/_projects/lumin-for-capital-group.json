@@ -39,6 +39,14 @@
       "multi_image": [
 
       ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/handz-10.png",
+      "multi_image": [
+
+      ]
     }
   ]
 }
