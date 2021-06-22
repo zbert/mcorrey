@@ -1,6 +1,6 @@
 {
   "title": "Pharma digital product",
-  "featured_image": "",
+  "featured_image": "/images/screen-shot-2021-05-14-at-1-17-1.png",
   "caption": "Strategy and implementation for the world’s first prescribable digital product.",
   "role": "Principal Visual Designer",
   "year": "2020",
@@ -45,6 +45,14 @@
       "template": "image-block",
       "image_type": "Single",
       "single_image": "/images/screen-shot-2021-05-14-at-1-17-1.png",
+      "multi_image": [
+
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/image-5.png",
       "multi_image": [
 
       ]
