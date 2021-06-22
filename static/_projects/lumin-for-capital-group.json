@@ -23,6 +23,22 @@
       "multi_image": [
 
       ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/image-1.png",
+      "multi_image": [
+
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/screen-shot-2021-06-21-at-8-53-38-pm.png",
+      "multi_image": [
+
+      ]
     }
   ]
 }
