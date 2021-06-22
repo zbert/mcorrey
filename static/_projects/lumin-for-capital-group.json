@@ -1,0 +1,20 @@
+{
+  "title": "Lumin for Capital Group",
+  "featured_image": "/images/handz-10.png",
+  "caption": "Digital product for financial advisors. ",
+  "role": "Principal Visual Designer",
+  "year": "2019",
+  "agency": "IA Collaborative",
+  "site_link": "https://pro.capitalgroup.com/",
+  "watermark": "",
+  "images_list": [
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/image-3.png",
+      "multi_image": [
+
+      ]
+    }
+  ]
+}
