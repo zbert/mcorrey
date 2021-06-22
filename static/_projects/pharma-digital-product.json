@@ -31,6 +31,23 @@
       "multi_image": [
 
       ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "single_image": "/images/screen-shot-2021-05-11-at-3-41-1.png",
+      "multi_image": [
+        "/images/screen-shot-2021-05-11-at-3-41-1.png",
+        "/images/screen-shot-2021-05-11-at-3-41-2.png"
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/screen-shot-2021-05-14-at-1-17-1.png",
+      "multi_image": [
+
+      ]
     }
   ]
 }
