@@ -28,7 +28,7 @@
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "/images/screen-shot-2021-05-14-at-1-17-1.png",
+      "single_image": "/images/screen-shot-2021-06-22-at-11-21-22-am.png",
       "multi_image": [
 
       ]
@@ -36,7 +36,7 @@
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "/images/screen-shot-2021-06-22-at-11-21-22-am.png",
+      "single_image": "/images/image-5.png",
       "multi_image": [
 
       ]
@@ -52,7 +52,7 @@
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "/images/image-5.png",
+      "single_image": "/images/screen-shot-2021-05-14-at-1-17-1.png",
       "multi_image": [
 
       ]
