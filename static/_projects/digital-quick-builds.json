@@ -27,7 +27,7 @@
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "",
+      "single_image": "/images/desktop.png",
       "multi_image": [
 
       ]
