@@ -11,22 +11,6 @@
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "",
-      "multi_image": [
-
-      ]
-    },
-    {
-      "template": "image-block",
-      "image_type": "Single",
-      "single_image": "/images/tablet.png",
-      "multi_image": [
-
-      ]
-    },
-    {
-      "template": "image-block",
-      "image_type": "Single",
       "single_image": "/images/group.png",
       "multi_image": [
 
@@ -36,6 +20,22 @@
       "template": "image-block",
       "image_type": "Single",
       "single_image": "/images/desktop-2.png",
+      "multi_image": [
+
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "",
+      "multi_image": [
+
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/tablet.png",
       "multi_image": [
 
       ]

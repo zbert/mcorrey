@@ -51,7 +51,6 @@ fields:
     min: 
     max: 
 pages:
-- static/_projects/adnoyvate.json
 - static/_projects/burns-mcdonnell.json
 - static/_projects/cannabis-pain-sleep-brand-research.json
 - static/_projects/digital-quick-builds.json
