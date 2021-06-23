@@ -1,0 +1,20 @@
+{
+  "title": "Prudential",
+  "featured_image": "",
+  "caption": "Digital product for Prudential.",
+  "role": "Principal Visual Designer",
+  "year": "2019",
+  "agency": "IA Collaborative",
+  "site_link": "",
+  "watermark": "",
+  "images_list": [
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/desktop-14.png",
+      "multi_image": [
+
+      ]
+    }
+  ]
+}
