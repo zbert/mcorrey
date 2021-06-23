@@ -1,0 +1,20 @@
+{
+  "title": "IA Biannual",
+  "featured_image": "",
+  "caption": "IA Collaborative's first Biannual project share out.",
+  "role": "Principal Visual Designer",
+  "year": "2019",
+  "agency": "IA Collaborative",
+  "site_link": "",
+  "watermark": "",
+  "images_list": [
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/poster-7.jpg",
+      "multi_image": [
+
+      ]
+    }
+  ]
+}
