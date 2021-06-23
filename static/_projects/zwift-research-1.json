@@ -38,6 +38,14 @@
     {
       "template": "image-block",
       "image_type": "Single",
+      "single_image": "/images/screen-shot-2019-05-22-at-1-32-24-pm.png",
+      "multi_image": [
+
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
       "single_image": "/images/screen-shot-2020-07-31-at-1-23-17-pm.png",
       "multi_image": [
 
@@ -53,11 +61,12 @@
     },
     {
       "template": "image-block",
-      "image_type": "Single",
-      "single_image": "",
+      "image_type": "Multi Image",
       "multi_image": [
-
-      ]
+        "/images/screen-shot-2019-12-09-at-3-10-44-pm.png",
+        "/images/screen-shot-2019-12-09-at-3-10-28-pm.png"
+      ],
+      "single_image": ""
     }
   ]
 }
