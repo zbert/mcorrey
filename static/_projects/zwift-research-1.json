@@ -1,6 +1,6 @@
 {
   "title": "Zwift Research",
-  "featured_image": "/images/screen-shot-2021-06-23-at-11-37-13-am.png",
+  "featured_image": "/images/img_0108.jpeg",
   "caption": "Research for the future of cycling for Zwift.",
   "role": "Visual Designer",
   "year": "2019",
@@ -8,6 +8,41 @@
   "site_link": "",
   "watermark": "",
   "images_list": [
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "multi_image": [
+        "/images/img_0108.jpeg",
+        "/images/img_0117-1.JPG"
+      ],
+      "single_image": ""
+    },
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "multi_image": [
+        "/images/f6ce8aa4-643d-4b0e-9ccf-aacfc9c4deee.JPG",
+        "/images/img_0103.jpeg"
+      ],
+      "single_image": ""
+    },
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "single_image": "",
+      "multi_image": [
+        "/images/screen-shot-2021-06-23-at-11-23-42-am.png",
+        "/images/screen-shot-2020-07-31-at-12-49-01-pm.png"
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/screen-shot-2020-07-31-at-1-24-11-pm.png",
+      "multi_image": [
+
+      ]
+    },
     {
       "template": "image-block",
       "image_type": "Multi Image",
@@ -29,60 +64,9 @@
     {
       "template": "image-block",
       "image_type": "Multi Image",
-      "single_image": "",
-      "multi_image": [
-        "/images/screen-shot-2021-06-23-at-11-23-42-am.png",
-        "/images/screen-shot-2020-07-31-at-12-49-01-pm.png"
-      ]
-    },
-    {
-      "template": "image-block",
-      "image_type": "Multi Image",
-      "multi_image": [
-        "/images/img_0108.jpeg",
-        "/images/img_0117-1.JPG"
-      ],
-      "single_image": ""
-    },
-    {
-      "template": "image-block",
-      "image_type": "Single",
-      "single_image": "/images/screen-shot-2019-05-22-at-1-32-24-pm.png",
-      "multi_image": [
-
-      ]
-    },
-    {
-      "template": "image-block",
-      "image_type": "Single",
-      "single_image": "/images/screen-shot-2020-07-31-at-1-23-17-pm.png",
-      "multi_image": [
-
-      ]
-    },
-    {
-      "template": "image-block",
-      "image_type": "Single",
-      "single_image": "/images/screen-shot-2020-07-31-at-1-24-11-pm.png",
-      "multi_image": [
-
-      ]
-    },
-    {
-      "template": "image-block",
-      "image_type": "Multi Image",
       "multi_image": [
         "/images/screen-shot-2019-12-09-at-3-10-44-pm.png",
         "/images/screen-shot-2019-12-09-at-3-10-28-pm.png"
-      ],
-      "single_image": ""
-    },
-    {
-      "template": "image-block",
-      "image_type": "Multi Image",
-      "multi_image": [
-        "/images/f6ce8aa4-643d-4b0e-9ccf-aacfc9c4deee.JPG",
-        "/images/img_0103.jpeg"
       ],
       "single_image": ""
     }
