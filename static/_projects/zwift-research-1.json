@@ -37,6 +37,15 @@
     },
     {
       "template": "image-block",
+      "image_type": "Multi Image",
+      "multi_image": [
+        "/images/img_0108.jpeg",
+        "/images/img_0117-1.JPG"
+      ],
+      "single_image": ""
+    },
+    {
+      "template": "image-block",
       "image_type": "Single",
       "single_image": "/images/screen-shot-2019-05-22-at-1-32-24-pm.png",
       "multi_image": [
@@ -72,8 +81,8 @@
       "template": "image-block",
       "image_type": "Multi Image",
       "multi_image": [
-        "/images/img_0108.jpeg",
-        "/images/img_0117-1.JPG"
+        "/images/f6ce8aa4-643d-4b0e-9ccf-aacfc9c4deee.JPG",
+        "/images/img_0103.jpeg"
       ],
       "single_image": ""
     }
