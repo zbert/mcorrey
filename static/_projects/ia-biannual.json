@@ -28,7 +28,7 @@
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "/images/poster-1.jpg",
+      "single_image": "",
       "multi_image": [
 
       ]
