@@ -1,7 +1,7 @@
 {
-  "title": "Jenny Brian",
+  "title": "Jenny & Brian",
   "featured_image": "/images/jenny-brian/featured.jpg",
-  "caption": "Wedding design system",
+  "caption": "Wedding design system! Yay!",
   "role": "Art Director",
   "year": "2018",
   "agency": "",
@@ -12,25 +12,33 @@
       "template": "image-block",
       "image_type": "Single",
       "single_image": "/images/jenny-brian/image-1.png",
-      "multi_image": []
+      "multi_image": [
+
+      ]
     },
     {
       "template": "image-block",
       "image_type": "Single",
       "single_image": "/images/jenny-brian/image-2.png",
-      "multi_image": []
+      "multi_image": [
+
+      ]
     },
     {
       "template": "image-block",
       "image_type": "Single",
       "single_image": "/images/jenny-brian/image-3.png",
-      "multi_image": []
+      "multi_image": [
+
+      ]
     },
     {
       "template": "image-block",
       "image_type": "Single",
       "single_image": "/images/jenny-brian/image-4.png",
-      "multi_image": []
+      "multi_image": [
+
+      ]
     }
   ]
 }
