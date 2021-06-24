@@ -59,7 +59,7 @@
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "",
+      "single_image": "/images/image-8.png",
       "multi_image": [
 
       ]
