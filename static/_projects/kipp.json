@@ -11,6 +11,14 @@
     {
       "template": "image-block",
       "image_type": "Single",
+      "single_image": "/images/kipp2.png",
+      "multi_image": [
+
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
       "single_image": "/images/screen-shot-2021-06-24-at-11-06-06-am.png",
       "multi_image": [
 
@@ -36,14 +44,6 @@
       "template": "image-block",
       "image_type": "Single",
       "single_image": "/images/desktop-hd.png",
-      "multi_image": [
-
-      ]
-    },
-    {
-      "template": "image-block",
-      "image_type": "Single",
-      "single_image": "/images/kipp2.png",
       "multi_image": [
 
       ]
