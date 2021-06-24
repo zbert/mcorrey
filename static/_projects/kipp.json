@@ -19,6 +19,14 @@
     {
       "template": "image-block",
       "image_type": "Single",
+      "single_image": "/images/screen-shot-2020-07-31-at-2-17-10-pm.png",
+      "multi_image": [
+
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
       "single_image": "/images/screen-shot-2021-06-24-at-11-06-06-am.png",
       "multi_image": [
 
@@ -35,15 +43,7 @@
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "/images/screen-shot-2020-07-31-at-2-17-10-pm.png",
-      "multi_image": [
-
-      ]
-    },
-    {
-      "template": "image-block",
-      "image_type": "Single",
-      "single_image": "/images/desktop-hd.png",
+      "single_image": "/images/image-8.png",
       "multi_image": [
 
       ]
@@ -52,14 +52,6 @@
       "template": "image-block",
       "image_type": "Single",
       "single_image": "/images/screen-shot-2021-06-24-at-11-04-56-am.png",
-      "multi_image": [
-
-      ]
-    },
-    {
-      "template": "image-block",
-      "image_type": "Single",
-      "single_image": "/images/image-8.png",
       "multi_image": [
 
       ]
