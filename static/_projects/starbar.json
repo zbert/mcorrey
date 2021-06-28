@@ -1,7 +1,7 @@
 {
   "title": "Starbar",
   "featured_image": "/images/starbar/featured.jpg",
-  "caption": "Starbar app UX/UI design and direction",
+  "caption": "Starbar app UX/UI design and implementation.",
   "role": "UX Designer",
   "year": "2016",
   "agency": "Celtic Chicago",
@@ -12,7 +12,9 @@
       "template": "image-block",
       "image_type": "Single",
       "single_image": "/images/starbar/image-1.png",
-      "multi_image": []
+      "multi_image": [
+
+      ]
     }
   ]
 }
