@@ -15,6 +15,22 @@
       "multi_image": [
 
       ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/screen-shot-2022-05-26-at-8-15-28-am.png",
+      "multi_image": [
+
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/reformatted-2.png",
+      "multi_image": [
+
+      ]
     }
   ]
 }
