@@ -1,6 +1,6 @@
 {
   "title": "Galleri",
-  "featured_image": "/images/screen-shot-2022-05-26-at-8-25-29-am.png",
+  "featured_image": "/images/reformatted-1.png",
   "caption": "Concept and design an end-to-end digital product experience for Galleri's \"Patient Initiated\" commercialization pathway.",
   "role": "Project Lead",
   "year": "2021",
@@ -11,7 +11,7 @@
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "/images/screen-shot-2022-05-26-at-8-15-13-am.png",
+      "single_image": "/images/screen-shot-2022-05-27-at-2-05-10-pm.png",
       "multi_image": [
 
       ]
@@ -19,7 +19,7 @@
     {
       "template": "image-block",
       "image_type": "Single",
-      "single_image": "/images/screen-shot-2022-05-26-at-8-15-28-am.png",
+      "single_image": "/images/screen-shot-2022-05-27-at-2-05-27-pm.png",
       "multi_image": [
 
       ]
