@@ -1,0 +1,54 @@
+{
+  "title": "SquareTrade",
+  "featured_image": "/images/screen-shot-2022-05-27-at-2-08-11-pm.png",
+  "caption": "",
+  "role": "Project Lead",
+  "year": "2021",
+  "agency": "Code & Theory",
+  "site_link": "",
+  "watermark": "",
+  "images_list": [
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/screen-shot-2022-05-27-at-2-08-11-pm.png",
+      "multi_image": [
+
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/screen-shot-2022-05-27-at-2-08-35-pm.png",
+      "multi_image": [
+
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Single",
+      "single_image": "/images/screen-shot-2022-05-27-at-2-12-33-pm.png",
+      "multi_image": [
+
+      ]
+    },
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "multi_image": [
+        "/images/home-page.png",
+        "/images/b2b-supplier-lp.png"
+      ],
+      "single_image": ""
+    },
+    {
+      "template": "image-block",
+      "image_type": "Multi Image",
+      "multi_image": [
+        "/images/b2b-supplier-lp-kkl.png",
+        "/images/frame-5934.jpg"
+      ],
+      "single_image": ""
+    }
+  ]
+}
