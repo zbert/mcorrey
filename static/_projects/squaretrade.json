@@ -45,8 +45,8 @@
       "template": "image-block",
       "image_type": "Multi Image",
       "multi_image": [
-        "/images/b2b-supplier-lp-kkl.png",
-        "/images/frame-5934.jpg"
+        "/images/frame-5934.jpg",
+        "/images/b2b-supplier-lp-kkl.png"
       ],
       "single_image": ""
     }
