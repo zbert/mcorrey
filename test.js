@@ -1,3 +1,3 @@
 const generatedRoutes = require('./generateWorkData')
 
-console.log(generatedRoutes)
+console.log(generatedRoutes, 'generatedRoutes')
